@@ -1,0 +1,22 @@
+seed 0 done
+seed 1 done
+seed 2 done
+
+sanity: global-pool candidate agrees with the student's original+flip answer on 100.0% of images (correctness)
+final accuracy 0.9047; hard WWW (steady, all stages wrong): 119/run
+
+candidate        acc  WWW -> right  final wrong -> right  final right -> wrong  net if it replaced final
+global        0.8756         0.0%             14.6/run             74.2/run                -59.6/run
+center3x3     0.8771         2.2%             15.8/run             72.2/run                -56.4/run
+weighted2:1   0.8767         1.0%             14.6/run             72.0/run                -57.4/run
+weighted4:1   0.8773         1.7%             15.4/run             71.6/run                -56.2/run
+
+by domain (WWW rescued % | final-right broken %):
+  center3x3    scanline: 2.0% | 3.4%  wave: 4.8% | 4.9%  fisheye: 0.6% | 3.4%
+  weighted2:1  scanline: 1.1% | 3.4%  wave: 2.0% | 4.9%  fisheye: 0.2% | 3.3%
+  weighted4:1  scanline: 1.7% | 3.4%  wave: 3.8% | 4.8%  fisheye: 0.3% | 3.3%
+
+student-level comparison (vs global pool, same views): of images global gets wrong, local gets right / of images global gets right, local gets wrong
+  center3x3    5.9% / 0.7%
+  weighted2:1  3.0% / 0.3%
+  weighted4:1  4.7% / 0.5%

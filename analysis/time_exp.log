@@ -1,0 +1,12 @@
+warmup                                           46.1 s  (202.1 ms/batch median, max   793)  aug   4.7 ms/call  acc 0.9580
+base (h2 fullaug)                                38.8 s  (202.0 ms/batch median, max   203)  aug   4.7 ms/call  acc 0.9580
+- entropy (w_ent 0)                              31.5 s  (163.5 ms/batch median, max   225)  aug   4.7 ms/call  acc 0.9562
+- T3A                                            38.5 s  (200.4 ms/batch median, max   232)  aug   4.7 ms/call  acc 0.9563
+- temporal affinity                              38.9 s  (202.5 ms/batch median, max   204)  aug   4.7 ms/call  acc 0.9558
+- ent - T3A - temporal                           31.2 s  (162.2 ms/batch median, max   165)  aug   4.7 ms/call  acc 0.9530
+extra_steps 1 (half batch)                       35.1 s  (182.5 ms/batch median, max   184)  aug   4.7 ms/call  acc 0.9597
+extra_steps 0                                    31.2 s  (162.4 ms/batch median, max   163)  aug   4.7 ms/call  acc 0.9553
+- flipped 224 view                               37.3 s  (188.8 ms/batch median, max   329)  aug   5.0 ms/call  acc 0.9492
+aug soft                                         52.5 s  (284.6 ms/batch median, max   346)  aug   4.9 ms/call  acc 0.9463
+aug no_geom                                      48.3 s  (280.6 ms/batch median, max   333)  aug   3.1 ms/call  acc 0.9510
+base again                                       46.2 s  (202.5 ms/batch median, max   338)  aug   4.9 ms/call  acc 0.9580

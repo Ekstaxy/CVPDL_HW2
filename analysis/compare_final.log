@@ -1,0 +1,14 @@
+arbn_tent + LAME 0 {'official': np.float64(0.8736), 'orders_mean': np.float64(0.8628), 'orders_worst': np.float64(0.8485), 'long': np.float64(0.8915)} (77s)
+arbn_tent + T3A + LAME 0 {'official': np.float64(0.8868), 'orders_mean': np.float64(0.8756), 'orders_worst': np.float64(0.8603), 'long': np.float64(0.8999)} (111s)
+arbn_teacher + LAME 0 {'official': np.float64(0.8859), 'orders_mean': np.float64(0.8752), 'orders_worst': np.float64(0.8641), 'long': np.float64(0.9115)} (142s)
+arbn_teacher + LAME 1 {'official': np.float64(0.8845), 'orders_mean': np.float64(0.8729), 'orders_worst': np.float64(0.8617), 'long': np.float64(0.91)} (142s)
+arbn_teacher + LAME 2 {'official': np.float64(0.8897), 'orders_mean': np.float64(0.8736), 'orders_worst': np.float64(0.8613), 'long': np.float64(0.9147)} (142s)
+arbn_teacher + T3A + LAME 0 {'official': np.float64(0.8883), 'orders_mean': np.float64(0.8827), 'orders_worst': np.float64(0.8684), 'long': np.float64(0.913)} (171s)
+arbn_teacher + T3A + LAME 1 {'official': np.float64(0.8892), 'orders_mean': np.float64(0.8793), 'orders_worst': np.float64(0.8651), 'long': np.float64(0.9129)} (170s)
+arbn_teacher + T3A + LAME 2 {'official': np.float64(0.8935), 'orders_mean': np.float64(0.8805), 'orders_worst': np.float64(0.8608), 'long': np.float64(0.9158)} (169s)
+                           official  orders_mean  orders_worst    long  official_std  orders_mean_std  orders_worst_std  long_std
+method                                                                                                                           
+arbn_tent + LAME             0.8736       0.8628        0.8485  0.8915           NaN              NaN               NaN       NaN
+arbn_tent + T3A + LAME       0.8868       0.8756        0.8603  0.8999           NaN              NaN               NaN       NaN
+arbn_teacher + LAME          0.8867       0.8739        0.8624  0.9120        0.0027           0.0011            0.0015    0.0024
+arbn_teacher + T3A + LAME    0.8903       0.8808        0.8647  0.9139        0.0028           0.0017            0.0038    0.0017

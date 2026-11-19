@@ -1,0 +1,8 @@
+base                                 harsh 0.4920  paired +0.00 (min +0.00, wins 0/6)  lowno 0.476 poste 0.830 false 0.402 strip 0.135 pixel 0.494 dithe 0.615
+LF + 2 half steps (h2)               harsh 0.5601  paired +6.80 (min +0.57, wins 6/6)  lowno 0.545 poste 0.825 false 0.366 strip 0.535 pixel 0.435 dithe 0.655
+LF + 2 full steps                    harsh 0.5612  paired +6.91 (min +0.85, wins 6/6)  lowno 0.536 poste 0.829 false 0.358 strip 0.545 pixel 0.438 dithe 0.662
+LF + 4 half steps                    harsh 0.5848  paired +9.27 (min +2.75, wins 6/6)  lowno 0.577 poste 0.829 false 0.379 strip 0.644 pixel 0.437 dithe 0.642
+LF + 4 full steps                    harsh 0.5803  paired +8.82 (min +2.23, wins 6/6)  lowno 0.563 poste 0.816 false 0.402 strip 0.629 pixel 0.430 dithe 0.642
+h2 + 4 more at shift                 harsh 0.5847  paired +9.26 (min +1.99, wins 6/6)  lowno 0.554 poste 0.803 false 0.401 strip 0.631 pixel 0.473 dithe 0.647
+h2 + 8 more at shift                 harsh 0.5923  paired +10.02 (min +4.40, wins 6/6)  lowno 0.601 poste 0.802 false 0.390 strip 0.661 pixel 0.467 dithe 0.634
+h2 + 4 more at shift (thr 0.15)      harsh 0.5822  paired +9.02 (min +3.36, wins 6/6)  lowno 0.584 poste 0.822 false 0.393 strip 0.609 pixel 0.436 dithe 0.648

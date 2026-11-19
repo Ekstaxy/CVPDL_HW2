@@ -1,0 +1,8 @@
+base                                     all 0.9388  official 0.9462  6-order worst 0.9296  scan+wave 0.9491  fisheye 0.9136  paired +0.00 (min +0.00, wins 0/21)
+h2 + fast BN (neutrality check)          all 0.9380  official 0.9446  6-order worst 0.9291  scan+wave 0.9492  fisheye 0.9106  paired -0.08 (min -1.14, wins 9/21)
+fast, 2 full steps                       all 0.9401  official 0.9500  6-order worst 0.9302  scan+wave 0.9512  fisheye 0.9127  paired +0.12 (min -0.52, wins 14/21)
+fast, h2, target = provisional answer    all 0.8595  official 0.9293  6-order worst 0.7565  scan+wave 0.8682  fisheye 0.8382  paired -7.93 (min -21.59, wins 2/21)
+fast, h2, target = mix                   all 0.9409  official 0.9512  6-order worst 0.9295  scan+wave 0.9483  fisheye 0.9227  paired +0.21 (min -0.90, wins 12/21)
+fast, 2 full steps, target = mix         all 0.9389  official 0.9515  6-order worst 0.9277  scan+wave 0.9466  fisheye 0.9202  paired +0.01 (min -1.09, wins 8/21)
+fast, 4 half steps                       all 0.9386  official 0.9468  6-order worst 0.9301  scan+wave 0.9519  fisheye 0.9060  paired -0.02 (min -0.99, wins 10/21)
+fast, 3 full steps                       all 0.9382  official 0.9452  6-order worst 0.9276  scan+wave 0.9507  fisheye 0.9075  paired -0.07 (min -1.04, wins 9/21)

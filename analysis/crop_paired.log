@@ -1,0 +1,59 @@
+  res.append(dict(combo=c, official=off.mean(), orders_mean=o.mean(1).mean(), orders_worst=o.min(1).mean(),
+  res.append(dict(combo=c, official=off.mean(), orders_mean=o.mean(1).mean(), orders_worst=o.min(1).mean(),
+  res.append(dict(combo=c, official=off.mean(), orders_mean=o.mean(1).mean(), orders_worst=o.min(1).mean(),
+  res.append(dict(combo=c, official=off.mean(), orders_mean=o.mean(1).mean(), orders_worst=o.min(1).mean(),
+  res.append(dict(combo=c, official=off.mean(), orders_mean=o.mean(1).mean(), orders_worst=o.min(1).mean(),
+  res.append(dict(combo=c, official=off.mean(), orders_mean=o.mean(1).mean(), orders_worst=o.min(1).mean(),
+  res.append(dict(combo=c, official=off.mean(), orders_mean=o.mean(1).mean(), orders_worst=o.min(1).mean(),
+  res.append(dict(combo=c, official=off.mean(), orders_mean=o.mean(1).mean(), orders_worst=o.min(1).mean(),
+  res.append(dict(combo=c, official=off.mean(), orders_mean=o.mean(1).mean(), orders_worst=o.min(1).mean(),
+  res.append(dict(combo=c, official=off.mean(), orders_mean=o.mean(1).mean(), orders_worst=o.min(1).mean(),
+  res.append(dict(combo=c, official=off.mean(), orders_mean=o.mean(1).mean(), orders_worst=o.min(1).mean(),
+  res.append(dict(combo=c, official=off.mean(), orders_mean=o.mean(1).mean(), orders_worst=o.min(1).mean(),
+  res.append(dict(combo=c, official=off.mean(), orders_mean=o.mean(1).mean(), orders_worst=o.min(1).mean(),
+  res.append(dict(combo=c, official=off.mean(), orders_mean=o.mean(1).mean(), orders_worst=o.min(1).mean(),
+=== sanity: final_OF official seed 0 should equal the arbn_teacher(flip) run: 0.9077
+
+=== 1. accuracy of every combination (mean over 3 seeds; 6-order mean / worst per seed then averaged)
+      combo  official  orders_mean  orders_worst  scanline   wave  fisheye   top3
+          O    0.8903       0.8808        0.8647    0.9040 0.8839   0.8525 0.9540
+         OF    0.9091       0.8963        0.8854    0.9182 0.9051   0.8645 0.9620
+     OF+C90    0.9235       0.9085        0.8960    0.9338 0.9089   0.8832 0.9689
+     OF+C80    0.9272       0.9169        0.9064    0.9314 0.9162   0.9045 0.9737
+     OF+C70    0.9296       0.9197        0.9104    0.9267 0.9180   0.9177 0.9734
+OF+C80+CF80    0.9306       0.9202        0.9108    0.9273 0.9143   0.9231 0.9752
+OF+C70+CF70    0.9326       0.9204        0.9111    0.9186 0.9112   0.9397 0.9754
+
+=== 2. paired vs current (OF), same seed + same order: accuracy difference
+OF+C90       mean +0.0124  min +0.0038  max +0.0180  better in 21/21
+      scanline  wrong->right  18.6/run  right->wrong   6.5/run  net +12.1
+      wave      wrong->right  10.8/run  right->wrong   8.0/run  net  +2.8
+      fisheye   wrong->right  16.8/run  right->wrong   5.3/run  net +11.4
+OF+C80       mean +0.0202  min +0.0147  max +0.0275  better in 21/21
+      scanline  wrong->right  18.1/run  right->wrong   7.8/run  net +10.3
+      wave      wrong->right  13.8/run  right->wrong   5.8/run  net  +8.0
+      fisheye   wrong->right  26.0/run  right->wrong   1.6/run  net +24.4
+OF+C70       mean +0.0230  min +0.0170  max +0.0355  better in 21/21
+      scanline  wrong->right  17.2/run  right->wrong  10.6/run  net  +6.6
+      wave      wrong->right  16.5/run  right->wrong   7.1/run  net  +9.3
+      fisheye   wrong->right  34.1/run  right->wrong   1.6/run  net +32.5
+OF+C80+CF80  mean +0.0235  min +0.0175  max +0.0331  better in 21/21
+      scanline  wrong->right  22.2/run  right->wrong  15.1/run  net  +7.1
+      wave      wrong->right  18.5/run  right->wrong  11.9/run  net  +6.7
+      fisheye   wrong->right  37.8/run  right->wrong   1.9/run  net +35.9
+OF+C70+CF70  mean +0.0240  min +0.0156  max +0.0355  better in 21/21
+      scanline  wrong->right  23.1/run  right->wrong  22.9/run  net  +0.3
+      wave      wrong->right  19.7/run  right->wrong  15.3/run  net  +4.4
+      fisheye   wrong->right  48.7/run  right->wrong   2.7/run  net +46.0
+
+=== 3. single views on the hard errors (student level, truth in top-3 / top-1)
+base G3 (O-final, truth outside top-3), all: 97/run  O: 15.9%/0.3%  F: 36.6%/12.0%  C90: 39.9%/17.1%  C80: 54.5%/29.1%  C70: 56.9%/35.0%
+base G3 (O-final, truth outside top-3), fisheye: 47/run  O: 10.4%/0.1%  F: 25.7%/8.0%  C90: 42.4%/17.3%  C80: 65.9%/38.6%  C70: 71.2%/50.9%
+current G3 (OF-final, truth outside top-3), all: 80/run  O: 19.2%/1.7%  F: 18.2%/0.9%  C90: 38.6%/16.6%  C80: 52.4%/27.7%  C70: 53.4%/31.3%
+current G3 (OF-final, truth outside top-3), fisheye: 41/run  O: 13.2%/2.0%  F: 11.3%/0.1%  C90: 44.4%/19.2%  C80: 66.1%/38.2%  C70: 68.6%/46.6%
+single-view accuracy by domain:
+  O    scanline 0.8712  wave 0.8448  fisheye 0.8309
+  F    scanline 0.8688  wave 0.8504  fisheye 0.8189
+  C90  scanline 0.7878  wave 0.8346  fisheye 0.8648
+  C80  scanline 0.7652  wave 0.8265  fisheye 0.9006
+  C70  scanline 0.6646  wave 0.7978  fisheye 0.9161

@@ -1,0 +1,3 @@
+base                                     all 0.9388  official 0.9462  6-order worst 0.9296  scan+wave 0.9491  fisheye 0.9136  paired +0.00 (min +0.00, wins 0/21)
+conv1                                    all 0.9363  official 0.9443  6-order worst 0.9265  scan+wave 0.9491  fisheye 0.9050  paired -0.25 (min -0.80, wins 8/21)
+conv1 + layer1.0 3e-4                    all 0.9390  official 0.9454  6-order worst 0.9290  scan+wave 0.9496  fisheye 0.9130  paired +0.01 (min -0.62, wins 11/21)

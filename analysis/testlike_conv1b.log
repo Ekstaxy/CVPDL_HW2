@@ -1,0 +1,4 @@
+base                             0.7929 paired +0.00 | lowno 0.883 swirl 0.513 chrom 0.918 infer 0.557 sepia 0.655 jpeg 0.767 diag 0.756 halft 0.878 teal 0.938 dotgr 0.906 dithe 0.910 oil 0.836
++ layer1.0 1e-4                  0.7939 paired +0.09 | lowno 0.880 swirl 0.502 chrom 0.917 infer 0.571 sepia 0.677 jpeg 0.756 diag 0.733 halft 0.887 teal 0.938 dotgr 0.900 dithe 0.925 oil 0.836
++ layer1.0 1e-3                  0.7842 paired -0.88 | lowno 0.883 swirl 0.475 chrom 0.922 infer 0.543 sepia 0.666 jpeg 0.755 diag 0.726 halft 0.858 teal 0.934 dotgr 0.895 dithe 0.910 oil 0.843
++ layer1.0 3e-4 + fc 1e-3        0.7896 paired -0.34 | lowno 0.878 swirl 0.490 chrom 0.921 infer 0.541 sepia 0.670 jpeg 0.765 diag 0.758 halft 0.864 teal 0.937 dotgr 0.908 dithe 0.901 oil 0.846

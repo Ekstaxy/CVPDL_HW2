@@ -1,0 +1,89 @@
+[
+ {
+  "name": "h2_noent",
+  "cfg": {
+   "flip": true,
+   "upscales": [
+    224
+   ],
+   "upscale_flip": true,
+   "aug": "soft",
+   "view_amp": true,
+   "fused_bn": true,
+   "lame_pow": true,
+   "lame_time": 0.1,
+   "lame_tau": 8,
+   "predict_after": true,
+   "extra_steps": 2,
+   "extra_loss": "cons",
+   "extra_stride": 2,
+   "w_ent": 0.0
+  }
+ },
+ {
+  "name": "groups 4",
+  "cfg": {
+   "flip": true,
+   "upscales": [
+    224
+   ],
+   "upscale_flip": true,
+   "aug": "soft",
+   "view_amp": true,
+   "fused_bn": true,
+   "lame_pow": true,
+   "lame_time": 0.1,
+   "lame_tau": 8,
+   "predict_after": true,
+   "extra_steps": 2,
+   "extra_loss": "cons",
+   "extra_stride": 2,
+   "w_ent": 0.0,
+   "aug_groups": 4
+  }
+ },
+ {
+  "name": "groups 8",
+  "cfg": {
+   "flip": true,
+   "upscales": [
+    224
+   ],
+   "upscale_flip": true,
+   "aug": "soft",
+   "view_amp": true,
+   "fused_bn": true,
+   "lame_pow": true,
+   "lame_time": 0.1,
+   "lame_tau": 8,
+   "predict_after": true,
+   "extra_steps": 2,
+   "extra_loss": "cons",
+   "extra_stride": 2,
+   "w_ent": 0.0,
+   "aug_groups": 8
+  }
+ },
+ {
+  "name": "groups 16",
+  "cfg": {
+   "flip": true,
+   "upscales": [
+    224
+   ],
+   "upscale_flip": true,
+   "aug": "soft",
+   "view_amp": true,
+   "fused_bn": true,
+   "lame_pow": true,
+   "lame_time": 0.1,
+   "lame_tau": 8,
+   "predict_after": true,
+   "extra_steps": 2,
+   "extra_loss": "cons",
+   "extra_stride": 2,
+   "w_ent": 0.0,
+   "aug_groups": 16
+  }
+ }
+]

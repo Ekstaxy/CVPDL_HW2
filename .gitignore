@@ -1,0 +1,16 @@
+.DS_Store
+CVPDL_HW2_Slide.pdf
+.venv/
+__pycache__/
+.pytest_cache/
+data/
+out/
+*.pth
+hw2_3090_timing/
+hw2_3090_timing.tar
+analysis/*.pt
+analysis/*.npy
+analysis/*.npz
+analysis/*.bak*
+analysis/bank_records.csv
+analysis/history_records.csv

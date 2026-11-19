@@ -1,0 +1,6 @@
+base                                     all 0.9448  official 0.9525  6-order worst 0.9369  scan+wave 0.9530  fisheye 0.9248  paired +0.00 (min +0.00, wins 0/21)
+A: O F U192x2 (no 224)                   all 0.9380  official 0.9459  6-order worst 0.9295  scan+wave 0.9521  fisheye 0.9034  paired -0.68 (min -1.28, wins 0/21)
+B: + U176x2                              all 0.9437  official 0.9498  6-order worst 0.9350  scan+wave 0.9530  fisheye 0.9209  paired -0.11 (min -0.52, wins 5/21)
+C: 224 -> 256                            all 0.9450  official 0.9530  6-order worst 0.9364  scan+wave 0.9531  fisheye 0.9250  paired +0.02 (min -0.38, wins 10/21)
+D: 192 -> 208                            all 0.9447  official 0.9517  6-order worst 0.9358  scan+wave 0.9514  fisheye 0.9281  paired -0.01 (min -0.43, wins 9/21)
+E: O F U176x2 U208x2                     all 0.9395  official 0.9468  6-order worst 0.9288  scan+wave 0.9521  fisheye 0.9087  paired -0.53 (min -1.37, wins 2/21)

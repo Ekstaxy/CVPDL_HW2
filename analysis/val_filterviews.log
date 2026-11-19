@@ -1,0 +1,8 @@
+base                                     all 0.9388  official 0.9462  6-order worst 0.9296  scan+wave 0.9491  fisheye 0.9136  paired +0.00 (min +0.00, wins 0/21)
++median3                                 all 0.9352  official 0.9407  6-order worst 0.9271  scan+wave 0.9479  fisheye 0.9041  paired -0.36 (min -0.90, wins 3/21)
++vblur                                   all 0.9338  official 0.9416  6-order worst 0.9258  scan+wave 0.9475  fisheye 0.9005  paired -0.50 (min -1.09, wins 2/21)
++hblur                                   all 0.9353  official 0.9424  6-order worst 0.9268  scan+wave 0.9474  fisheye 0.9057  paired -0.35 (min -0.95, wins 2/21)
++blur                                    all 0.9360  official 0.9437  6-order worst 0.9266  scan+wave 0.9482  fisheye 0.9062  paired -0.28 (min -0.95, wins 4/21)
++down                                    all 0.9360  official 0.9429  6-order worst 0.9285  scan+wave 0.9480  fisheye 0.9066  paired -0.28 (min -0.85, wins 4/21)
++gray                                    all 0.9341  official 0.9426  6-order worst 0.9255  scan+wave 0.9484  fisheye 0.8989  paired -0.47 (min -1.33, wins 1/21)
++up192                                   all 0.9424  official 0.9498  6-order worst 0.9348  scan+wave 0.9510  fisheye 0.9213  paired +0.36 (min -0.19, wins 19/21)

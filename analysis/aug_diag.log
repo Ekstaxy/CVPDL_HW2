@@ -1,0 +1,22 @@
+seed 0 done
+seed 1 done
+seed 2 done
+
+student accuracy on the original view: 0.8574; hard steady WWW images: 125/run
+view             acc   right->wrong (of orig right)   wrong->right (of orig wrong)  WWW rescued
+orig          0.8574                          0.0%                           0.0%        6.6%
+color         0.7559                         14.7%                          17.2%       13.1%
+geometric     0.7665                         15.3%                          28.3%       20.7%
+blur+noise    0.8530                          1.7%                           7.4%        8.7%
+full          0.6376                         29.5%                          23.2%       17.5%
+
+right->wrong rate by domain:
+  color        scanline 18.9%  wave 13.0%  fisheye 10.9%
+  geometric    scanline 26.7%  wave 8.7%  fisheye 7.6%
+  blur+noise   scanline 2.1%  wave 1.9%  fisheye 0.9%
+  full         scanline 43.1%  wave 22.4%  fisheye 19.2%
+WWW rescued by domain:
+  color        scanline 13.8% (n=40)  wave 15.0% (n=37)  fisheye 11.2% (n=49)
+  geometric    scanline 26.8% (n=40)  wave 17.0% (n=37)  fisheye 18.5% (n=49)
+  blur+noise   scanline 8.6% (n=40)  wave 11.0% (n=37)  fisheye 7.0% (n=49)
+  full         scanline 17.7% (n=40)  wave 18.2% (n=37)  fisheye 16.8% (n=49)

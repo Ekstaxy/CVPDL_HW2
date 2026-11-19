@@ -1,0 +1,17 @@
+base 160, O+F+U224+UF224 (arbn_best)         all 0.9278  official 0.9399  worst 0.9091  scan+wave 0.9308  fisheye 0.9206
+base 160, O+F only                           all 0.8995  official 0.9058  worst 0.8873  scan+wave 0.9168  fisheye 0.8571
+base 192, O+F only                           all 0.9226  official 0.9257  worst 0.9124  scan+wave 0.9310  fisheye 0.9017
+base 224, O+F only                           all 0.9205  official 0.9313  worst 0.9044  scan+wave 0.9220  fisheye 0.9167
+base 256, O+F only                           all 0.8936  official 0.9015  worst 0.8797  scan+wave 0.8884  fisheye 0.9064
+base 224 bicubic, O+F only                   all 0.9203  official 0.9313  worst 0.9044  scan+wave 0.9201  fisheye 0.9209
+base 224, O only                             all 0.9059  official 0.9152  worst 0.8878  scan+wave 0.9047  fisheye 0.9090
+base 160, O only                             all 0.8872  official 0.8944  worst 0.8769  scan+wave 0.9021  fisheye 0.8508
+base 176, O+F                                all 0.9094  official 0.9143  worst 0.9029  scan+wave 0.9221  fisheye 0.8784
+base 208, O+F                                all 0.9194  official 0.9252  worst 0.9110  scan+wave 0.9212  fisheye 0.9150
+base 192, O+F+U224+UF224                     all 0.9309  official 0.9389  worst 0.9205  scan+wave 0.9315  fisheye 0.9293
+base 192, O+F+U256+UF256                     all 0.9286  official 0.9356  worst 0.9181  scan+wave 0.9277  fisheye 0.9309
+base 192, O+F+D160+DF160                     all 0.9123  official 0.9171  worst 0.9006  scan+wave 0.9350  fisheye 0.8564
+base 192, O+F+160+256 (+flips)               all 0.9249  official 0.9252  worst 0.9200  scan+wave 0.9372  fisheye 0.8945
+base 208, O+F+U256+UF256                     all 0.9177  official 0.9257  worst 0.9086  scan+wave 0.9118  fisheye 0.9321
+base 224, O+F+D176+DF176                     all 0.9178  official 0.9276  worst 0.8991  scan+wave 0.9335  fisheye 0.8793
+base 224, O+F+U288+UF288                     all 0.9146  official 0.9247  worst 0.8963  scan+wave 0.9049  fisheye 0.9384

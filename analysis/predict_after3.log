@@ -1,0 +1,8 @@
+base                                     all 0.9311  official 0.9421  6-order worst 0.9152  scan+wave 0.9380  fisheye 0.9139  paired +0.00 (min +0.00, wins 0/21)
+LF + 1 cons                              all 0.9372  official 0.9460  6-order worst 0.9261  scan+wave 0.9454  fisheye 0.9171  paired +0.62 (min -0.19, wins 19/21)
+LF + 2 cons half-batch                   all 0.9388  official 0.9462  6-order worst 0.9296  scan+wave 0.9491  fisheye 0.9136  paired +0.78 (min -0.28, wins 17/21)
+LF + 3 cons half-batch                   all 0.9398  official 0.9473  6-order worst 0.9290  scan+wave 0.9515  fisheye 0.9113  paired +0.88 (min -0.47, wins 19/21)
+LF, no entropy loss                      all 0.9269  official 0.9359  6-order worst 0.9151  scan+wave 0.9364  fisheye 0.9036  paired -0.42 (min -1.37, wins 3/21)
+LF + 2 cons, no entropy loss             all 0.9384  official 0.9446  6-order worst 0.9313  scan+wave 0.9497  fisheye 0.9107  paired +0.73 (min +0.00, wins 20/21)
+LF + 3 cons, no entropy loss             all 0.9358  official 0.9430  6-order worst 0.9271  scan+wave 0.9490  fisheye 0.9034  paired +0.47 (min -0.76, wins 14/21)
+LF + 4 cons half-batch, no entropy       all 0.9381  official 0.9462  6-order worst 0.9276  scan+wave 0.9496  fisheye 0.9099  paired +0.70 (min -0.47, wins 16/21)

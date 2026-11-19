@@ -1,0 +1,399 @@
+[
+ {
+  "name": "base (h2)",
+  "cfg": {
+   "flip": true,
+   "upscales": [
+    224
+   ],
+   "upscale_flip": true,
+   "aug": "soft",
+   "view_amp": true,
+   "fused_bn": true,
+   "lame_pow": true,
+   "lame_time": 0.1,
+   "lame_tau": 8,
+   "predict_after": true,
+   "extra_steps": 2,
+   "extra_loss": "cons",
+   "extra_stride": 2
+  }
+ },
+ {
+  "name": "lr 0.05",
+  "cfg": {
+   "flip": true,
+   "upscales": [
+    224
+   ],
+   "upscale_flip": true,
+   "aug": "soft",
+   "view_amp": true,
+   "fused_bn": true,
+   "lame_pow": true,
+   "lame_time": 0.1,
+   "lame_tau": 8,
+   "predict_after": true,
+   "extra_steps": 2,
+   "extra_loss": "cons",
+   "extra_stride": 2,
+   "lr": 0.05
+  }
+ },
+ {
+  "name": "lr 0.15",
+  "cfg": {
+   "flip": true,
+   "upscales": [
+    224
+   ],
+   "upscale_flip": true,
+   "aug": "soft",
+   "view_amp": true,
+   "fused_bn": true,
+   "lame_pow": true,
+   "lame_time": 0.1,
+   "lame_tau": 8,
+   "predict_after": true,
+   "extra_steps": 2,
+   "extra_loss": "cons",
+   "extra_stride": 2,
+   "lr": 0.15
+  }
+ },
+ {
+  "name": "lr 0.2",
+  "cfg": {
+   "flip": true,
+   "upscales": [
+    224
+   ],
+   "upscale_flip": true,
+   "aug": "soft",
+   "view_amp": true,
+   "fused_bn": true,
+   "lame_pow": true,
+   "lame_time": 0.1,
+   "lame_tau": 8,
+   "predict_after": true,
+   "extra_steps": 2,
+   "extra_loss": "cons",
+   "extra_stride": 2,
+   "lr": 0.2
+  }
+ },
+ {
+  "name": "mt 0.99",
+  "cfg": {
+   "flip": true,
+   "upscales": [
+    224
+   ],
+   "upscale_flip": true,
+   "aug": "soft",
+   "view_amp": true,
+   "fused_bn": true,
+   "lame_pow": true,
+   "lame_time": 0.1,
+   "lame_tau": 8,
+   "predict_after": true,
+   "extra_steps": 2,
+   "extra_loss": "cons",
+   "extra_stride": 2,
+   "mt": 0.99
+  }
+ },
+ {
+  "name": "mt 0.9995",
+  "cfg": {
+   "flip": true,
+   "upscales": [
+    224
+   ],
+   "upscale_flip": true,
+   "aug": "soft",
+   "view_amp": true,
+   "fused_bn": true,
+   "lame_pow": true,
+   "lame_time": 0.1,
+   "lame_tau": 8,
+   "predict_after": true,
+   "extra_steps": 2,
+   "extra_loss": "cons",
+   "extra_stride": 2,
+   "mt": 0.9995
+  }
+ },
+ {
+  "name": "w_cons 0.5",
+  "cfg": {
+   "flip": true,
+   "upscales": [
+    224
+   ],
+   "upscale_flip": true,
+   "aug": "soft",
+   "view_amp": true,
+   "fused_bn": true,
+   "lame_pow": true,
+   "lame_time": 0.1,
+   "lame_tau": 8,
+   "predict_after": true,
+   "extra_steps": 2,
+   "extra_loss": "cons",
+   "extra_stride": 2,
+   "w_cons": 0.5
+  }
+ },
+ {
+  "name": "w_cons 2",
+  "cfg": {
+   "flip": true,
+   "upscales": [
+    224
+   ],
+   "upscale_flip": true,
+   "aug": "soft",
+   "view_amp": true,
+   "fused_bn": true,
+   "lame_pow": true,
+   "lame_time": 0.1,
+   "lame_tau": 8,
+   "predict_after": true,
+   "extra_steps": 2,
+   "extra_loss": "cons",
+   "extra_stride": 2,
+   "w_cons": 2.0
+  }
+ },
+ {
+  "name": "w_ent 0.5",
+  "cfg": {
+   "flip": true,
+   "upscales": [
+    224
+   ],
+   "upscale_flip": true,
+   "aug": "soft",
+   "view_amp": true,
+   "fused_bn": true,
+   "lame_pow": true,
+   "lame_time": 0.1,
+   "lame_tau": 8,
+   "predict_after": true,
+   "extra_steps": 2,
+   "extra_loss": "cons",
+   "extra_stride": 2,
+   "w_ent": 0.5
+  }
+ },
+ {
+  "name": "w_ent 2",
+  "cfg": {
+   "flip": true,
+   "upscales": [
+    224
+   ],
+   "upscale_flip": true,
+   "aug": "soft",
+   "view_amp": true,
+   "fused_bn": true,
+   "lame_pow": true,
+   "lame_time": 0.1,
+   "lame_tau": 8,
+   "predict_after": true,
+   "extra_steps": 2,
+   "extra_loss": "cons",
+   "extra_stride": 2,
+   "w_ent": 2.0
+  }
+ },
+ {
+  "name": "alpha_max 0.3",
+  "cfg": {
+   "flip": true,
+   "upscales": [
+    224
+   ],
+   "upscale_flip": true,
+   "aug": "soft",
+   "view_amp": true,
+   "fused_bn": true,
+   "lame_pow": true,
+   "lame_time": 0.1,
+   "lame_tau": 8,
+   "predict_after": true,
+   "extra_steps": 2,
+   "extra_loss": "cons",
+   "extra_stride": 2,
+   "alpha_max": 0.3
+  }
+ },
+ {
+  "name": "alpha_max 0.8",
+  "cfg": {
+   "flip": true,
+   "upscales": [
+    224
+   ],
+   "upscale_flip": true,
+   "aug": "soft",
+   "view_amp": true,
+   "fused_bn": true,
+   "lame_pow": true,
+   "lame_time": 0.1,
+   "lame_tau": 8,
+   "predict_after": true,
+   "extra_steps": 2,
+   "extra_loss": "cons",
+   "extra_stride": 2,
+   "alpha_max": 0.8
+  }
+ },
+ {
+  "name": "gain 0.5",
+  "cfg": {
+   "flip": true,
+   "upscales": [
+    224
+   ],
+   "upscale_flip": true,
+   "aug": "soft",
+   "view_amp": true,
+   "fused_bn": true,
+   "lame_pow": true,
+   "lame_time": 0.1,
+   "lame_tau": 8,
+   "predict_after": true,
+   "extra_steps": 2,
+   "extra_loss": "cons",
+   "extra_stride": 2,
+   "gain": 0.5
+  }
+ },
+ {
+  "name": "gain 2",
+  "cfg": {
+   "flip": true,
+   "upscales": [
+    224
+   ],
+   "upscale_flip": true,
+   "aug": "soft",
+   "view_amp": true,
+   "fused_bn": true,
+   "lame_pow": true,
+   "lame_time": 0.1,
+   "lame_tau": 8,
+   "predict_after": true,
+   "extra_steps": 2,
+   "extra_loss": "cons",
+   "extra_stride": 2,
+   "gain": 2.0
+  }
+ },
+ {
+  "name": "alpha_min 0.02",
+  "cfg": {
+   "flip": true,
+   "upscales": [
+    224
+   ],
+   "upscale_flip": true,
+   "aug": "soft",
+   "view_amp": true,
+   "fused_bn": true,
+   "lame_pow": true,
+   "lame_time": 0.1,
+   "lame_tau": 8,
+   "predict_after": true,
+   "extra_steps": 2,
+   "extra_loss": "cons",
+   "extra_stride": 2,
+   "alpha_min": 0.02
+  }
+ },
+ {
+  "name": "alpha_min 0.1",
+  "cfg": {
+   "flip": true,
+   "upscales": [
+    224
+   ],
+   "upscale_flip": true,
+   "aug": "soft",
+   "view_amp": true,
+   "fused_bn": true,
+   "lame_pow": true,
+   "lame_time": 0.1,
+   "lame_tau": 8,
+   "predict_after": true,
+   "extra_steps": 2,
+   "extra_loss": "cons",
+   "extra_stride": 2,
+   "alpha_min": 0.1
+  }
+ },
+ {
+  "name": "t3a_k 20",
+  "cfg": {
+   "flip": true,
+   "upscales": [
+    224
+   ],
+   "upscale_flip": true,
+   "aug": "soft",
+   "view_amp": true,
+   "fused_bn": true,
+   "lame_pow": true,
+   "lame_time": 0.1,
+   "lame_tau": 8,
+   "predict_after": true,
+   "extra_steps": 2,
+   "extra_loss": "cons",
+   "extra_stride": 2,
+   "t3a_k": 20
+  }
+ },
+ {
+  "name": "t3a_k 100",
+  "cfg": {
+   "flip": true,
+   "upscales": [
+    224
+   ],
+   "upscale_flip": true,
+   "aug": "soft",
+   "view_amp": true,
+   "fused_bn": true,
+   "lame_pow": true,
+   "lame_time": 0.1,
+   "lame_tau": 8,
+   "predict_after": true,
+   "extra_steps": 2,
+   "extra_loss": "cons",
+   "extra_stride": 2,
+   "t3a_k": 100
+  }
+ },
+ {
+  "name": "aug no_geom",
+  "cfg": {
+   "flip": true,
+   "upscales": [
+    224
+   ],
+   "upscale_flip": true,
+   "aug": "no_geom",
+   "view_amp": true,
+   "fused_bn": true,
+   "lame_pow": true,
+   "lame_time": 0.1,
+   "lame_tau": 8,
+   "predict_after": true,
+   "extra_steps": 2,
+   "extra_loss": "cons",
+   "extra_stride": 2
+  }
+ }
+]

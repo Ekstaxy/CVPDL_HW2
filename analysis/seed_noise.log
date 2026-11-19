@@ -1,0 +1,2 @@
+h2 (original BN path)    long-stream acc per seed: 0.9470 0.9482 0.9489 0.9497 | mean 0.9484 sd 0.0011 range 0.0027 | first-half (6,336 img) range 0.0082 | pairwise disagreement 3.3%
+h2 + fast BN             long-stream acc per seed: 0.9459 0.9461 0.9467 0.9510 | mean 0.9474 sd 0.0024 range 0.0051 | first-half (6,336 img) range 0.0077 | pairwise disagreement 3.1%

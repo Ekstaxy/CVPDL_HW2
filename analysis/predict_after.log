@@ -1,0 +1,5 @@
+base                                     all 0.9311  official 0.9421  6-order worst 0.9152  scan+wave 0.9380  fisheye 0.9139  paired +0.00 (min +0.00, wins 0/21)
+learn first, then predict                all 0.9339  official 0.9438  6-order worst 0.9211  scan+wave 0.9423  fisheye 0.9132  paired +0.29 (min -0.33, wins 16/21)
+learn first + 1 extra step               all 0.9382  official 0.9441  6-order worst 0.9276  scan+wave 0.9464  fisheye 0.9181  paired +0.71 (min +0.09, wins 21/21)
+learn first + 2 extra steps              all 0.9405  official 0.9506  6-order worst 0.9277  scan+wave 0.9505  fisheye 0.9162  paired +0.95 (min -0.19, wins 19/21)
+1 extra step, predict before (control)   all 0.9310  official 0.9407  6-order worst 0.9175  scan+wave 0.9374  fisheye 0.9153  paired -0.01 (min -0.99, wins 11/21)

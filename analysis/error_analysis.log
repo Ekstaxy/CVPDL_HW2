@@ -1,0 +1,37 @@
+done official final acc 0.8883
+done scan-wave-fish final acc 0.8883
+done scan-fish-wave final acc 0.8864
+done wave-scan-fish final acc 0.8816
+done wave-fish-scan final acc 0.8982
+done fish-scan-wave final acc 0.8731
+done fish-wave-scan final acc 0.8684
+
+######## official val order  (2112 images)
+final top-1 0.8883  top-2 0.9422  top-3 0.9631  top-5 0.9759
+student top-1 0.8532  top-3 0.9460
+errors 236 (11.2%):  G1 2nd + a signal supports truth 54  |  G2 top-3, all signals agree on the same wrong label 59  |  G3 truth not in top-3 78  |  other top-3 45
+  per val run: errors 236, G1 54, G2 59, G3 78, other 45   (95% needs ~130 fewer errors)
+  G3 by domain: {'fisheye': 35, 'wave': 23, 'scanline': 20}  | errors by domain: {'wave': 94, 'fisheye': 80, 'scanline': 62}
+  G3 by true class: {'laptop': 16, 'timber_wolf': 7, 'acoustic_guitar': 7, 'sports_car': 6, 'flamingo': 6, 'tree_frog': 5}
+  top confusions (true -> predicted): {'timber_wolf->Siberian_husky': 10, 'laptop->sports_car': 10, 'sports_car->fire_engine': 7, 'flamingo->airliner': 7, 'timber_wolf->red_fox': 6, 'steam_locomotive->sports_car': 6}
+  final != student (all changes): n=138  wrong->right 85  right->wrong 11  wrong->wrong 42
+  T3A and LAME-alone both support the same new label: n=30  wrong->right 20  right->wrong 3  wrong->wrong 7
+  only one of T3A / LAME-alone supports a change: n=94  wrong->right 52  right->wrong 6  wrong->wrong 36
+    in the 'both support' subset the agreed label is correct 66.7% of the time
+  flip view: student wrong & flip right 111 per run, student right & flip wrong 95 per run; student acc 0.8532, flip acc 0.8608, avg(orig, flip) acc 0.8726
+  final wrong & flip right 67 per run (upper bound of what a perfect view selector adds on top of the final: 3.17%)
+
+######## official + 6 orders pooled  (14784 images)
+final top-1 0.8835  top-2 0.9359  top-3 0.9552  top-5 0.9725
+student top-1 0.8505  top-3 0.9418
+errors 1723 (11.7%):  G1 2nd + a signal supports truth 344  |  G2 top-3, all signals agree on the same wrong label 417  |  G3 truth not in top-3 662  |  other top-3 300
+  per val run: errors 246, G1 49, G2 60, G3 95, other 43   (95% needs ~141 fewer errors)
+  G3 by domain: {'fisheye': 310, 'wave': 178, 'scanline': 174}  | errors by domain: {'wave': 610, 'fisheye': 604, 'scanline': 509}
+  G3 by true class: {'laptop': 124, 'timber_wolf': 68, 'sports_car': 52, 'flamingo': 50, 'tabby': 48, 'acoustic_guitar': 43}
+  top confusions (true -> predicted): {'steam_locomotive->sports_car': 54, 'timber_wolf->Siberian_husky': 52, 'timber_wolf->red_fox': 45, 'laptop->sports_car': 45, 'flamingo->airliner': 43, 'Siberian_husky->timber_wolf': 42}
+  final != student (all changes): n=936  wrong->right 574  right->wrong 87  wrong->wrong 275
+  T3A and LAME-alone both support the same new label: n=211  wrong->right 145  right->wrong 23  wrong->wrong 43
+  only one of T3A / LAME-alone supports a change: n=650  wrong->right 316  right->wrong 45  wrong->wrong 289
+    in the 'both support' subset the agreed label is correct 67.8% of the time
+  flip view: student wrong & flip right 95 per run, student right & flip wrong 99 per run; student acc 0.8505, flip acc 0.8488, avg(orig, flip) acc 0.8636
+  final wrong & flip right 62 per run (upper bound of what a perfect view selector adds on top of the final: 2.92%)

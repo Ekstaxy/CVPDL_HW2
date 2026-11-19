@@ -1,0 +1,11 @@
+{'unfreeze': None}                            (84s) val 0.8859 6ord 0.8752/0.8641 long 0.9115
+{'unfreeze': 'layer4.2', 'lr_conv': 0.0001}   (125s) val 0.8845 6ord 0.8756/0.8608 long 0.9098
+{'unfreeze': 'layer4.2', 'lr_conv': 0.0003}   (130s) val 0.8878 6ord 0.8756/0.8641 long 0.9100
+{'unfreeze': 'layer4.2', 'lr_conv': 0.001}    (142s) val 0.8845 6ord 0.8746/0.8594 long 0.9126
+{'unfreeze': 'layer4.2', 'lr_conv': 0.003}    (142s) val 0.8840 6ord 0.8760/0.8613 long 0.9086
+{'unfreeze': 'layer4.2', 'lr_conv': 0.01}     (130s) val 0.8774 6ord 0.8712/0.8565 long 0.9013
+{'unfreeze': 'layer4', 'lr_conv': 0.0001}     (126s) val 0.8854 6ord 0.8754/0.8598 long 0.9100
+{'unfreeze': 'layer4', 'lr_conv': 0.0003}     (125s) val 0.8849 6ord 0.8750/0.8584 long 0.9122
+{'unfreeze': 'layer4', 'lr_conv': 0.001}      (126s) val 0.8830 6ord 0.8739/0.8580 long 0.9081
+{'unfreeze': 'layer4', 'lr_conv': 0.003}      (97s) val 0.8835 6ord 0.8688/0.8494 long 0.9087
+{'unfreeze': 'layer4', 'lr_conv': 0.01}       (68s) val 0.8778 6ord 0.8517/0.8362 long 0.9073

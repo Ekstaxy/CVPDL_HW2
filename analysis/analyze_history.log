@@ -1,0 +1,56 @@
+=== 1. same image, same batch companions, different history (A, aligned orders, 3 seeds)
+fisheye   after scanline : first-position acc 0.8646 vs after-shift acc 0.8747 | harmed (first right, after wrong) 1.4%  helped (first wrong, after right) 2.5%  always wrong 9.3%
+      by batch index after the shift: {'0': '0.859->0.906', '1': '0.724->0.745', '2': '0.948->0.938', '3+': '0.875->0.881'}
+fisheye   after wave     : first-position acc 0.8646 vs after-shift acc 0.8652 | harmed (first right, after wrong) 1.0%  helped (first wrong, after right) 1.5%  always wrong 9.5%
+      by batch index after the shift: {'0': '0.859->0.823', '1': '0.724->0.745', '2': '0.948->0.917', '3+': '0.875->0.884'}
+scanline  after fisheye  : first-position acc 0.9314 vs after-shift acc 0.9258 | harmed (first right, after wrong) 1.1%  helped (first wrong, after right) 0.9%  always wrong 4.6%
+      by batch index after the shift: {'0': '0.938->0.898', '1': '0.906->0.875', '2': '0.969->0.953', '3+': '0.929->0.931'}
+scanline  after wave     : first-position acc 0.9314 vs after-shift acc 0.9199 | harmed (first right, after wrong) 1.8%  helped (first wrong, after right) 1.0%  always wrong 4.4%
+      by batch index after the shift: {'0': '0.938->0.904', '1': '0.906->0.878', '2': '0.969->0.948', '3+': '0.929->0.923'}
+wave      after fisheye  : first-position acc 0.9006 vs after-shift acc 0.9074 | harmed (first right, after wrong) 1.9%  helped (first wrong, after right) 3.3%  always wrong 3.9%
+      by batch index after the shift: {'0': '0.688->0.789', '1': '0.859->0.932', '2': '0.948->0.974', '3+': '0.926->0.911'}
+wave      after scanline : first-position acc 0.9006 vs after-shift acc 0.9126 | harmed (first right, after wrong) 2.3%  helped (first wrong, after right) 3.9%  always wrong 4.4%
+      by batch index after the shift: {'0': '0.688->0.750', '1': '0.859->0.930', '2': '0.948->0.979', '3+': '0.926->0.923'}
+
+=== 2. accuracy by batch index inside a segment (first segment vs later segments)
+A b                   0       1       2      3+
+pos                                          
+after a shift  0.8451  0.8507  0.9514  0.9119
+first segment  0.8281  0.8299  0.9549  0.9142
+B b                   0       1       2      3+
+pos                                          
+after a shift  0.8511  0.8520  0.9475  0.9150
+first segment  0.8281  0.8299  0.9549  0.9142
+
+=== 3. B (momentum reset) minus A, paired per seed + order + image, by batch index after a shift
+after a shift: {'0': 0.0061, '1': 0.0013, '2': -0.0039, '3+': 0.0031} | first segment: 0.0 | overall: 0.0017
+by domain (after a shift): {'fisheye': -0.0009, 'scanline': 0.0037, 'wave': 0.0041}
+
+=== 4. momentum vs fresh gradient (A): cosine right before optimizer.step()
+     mean    25%    50%    75%
+b                             
+0   0.100  0.048  0.108  0.160
+1   0.203  0.081  0.209  0.258
+2   0.174  0.045  0.188  0.274
+3+  0.091 -0.018  0.069  0.188
+first segment, batch>=3: {'mean': 0.203, '50%': 0.168}
+detected onsets (alpha>=0.3 after <0.3) per aligned stream: {3: 12, 2: 6}
+
+=== 5. historical neighbours vs current-batch neighbours (A, batches >= 1, final-label votes)
+current-batch vote wrong: 15.1% of images; history vote right there: 50.2%
+current-batch vote right: history vote wrong there: 9.7%
+images the final (T3A+LAME) gets wrong: 9.5%; history vote right on them: 8.8% (current-batch vote right on them: 21.1%)
+images the final gets right: history vote wrong on them: 7.9%
+  -> per val-sized run (2048 images): history could fix at most 16, and disagrees with a correct final on 141
+
+=== 6. steady part (batch index >= 2), stage by stage: original+flip -> T3A -> LAME (A)
+RRR    1460.1
+WWW     125.2
+WWR      40.2
+WRR      19.3
+RWR       6.6
+RRW       6.1
+RWW       3.3
+WRW       3.1 
+(n per run = 1664; letters = base, T3A, LAME; R right, W wrong)
+final accuracy 0.9172; any stage right 0.9248; right before LAME but wrong after: 9.2/run; base right but T3A wrong: 9.9/run

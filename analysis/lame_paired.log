@@ -1,0 +1,15 @@
+seed 0 done
+seed 1 done
+seed 2 done
+base (arbn_best)             all 0.9251  official 0.9364 (0.9399 0.9351 0.9342)  6-order worst 0.9072  scan+wave 0.9284  fisheye 0.9169  paired +0.00 (min +0.00, wins 0/21)
+pow=0 time 0.1*box(4)        all 0.9279  official 0.9405 (0.9441 0.9399 0.9375)  6-order worst 0.9102  scan+wave 0.9318  fisheye 0.9185  paired +0.29 (min +0.09, wins 21/21)
+pow=0 time 0.15*box(4)       all 0.9289  official 0.9411 (0.9446 0.9403 0.9384)  6-order worst 0.9121  scan+wave 0.9328  fisheye 0.9192  paired +0.38 (min +0.00, wins 20/21)
+pow=0 time 0.25*box(4)       all 0.9302  official 0.9427 (0.9446 0.9408 0.9427)  6-order worst 0.9127  scan+wave 0.9350  fisheye 0.9185  paired +0.52 (min +0.14, wins 21/21)
+pow=0 time 0.1*box(8)        all 0.9295  official 0.9424 (0.9441 0.9403 0.9427)  6-order worst 0.9124  scan+wave 0.9339  fisheye 0.9187  paired +0.44 (min +0.00, wins 20/21)
+pow=0 time 0.15*box(6)       all 0.9301  official 0.9430 (0.9446 0.9418 0.9427)  6-order worst 0.9127  scan+wave 0.9346  fisheye 0.9190  paired +0.51 (min -0.09, wins 20/21)
+pow=1 time 0.0*box(4)        all 0.9279  official 0.9388 (0.9394 0.9394 0.9375)  6-order worst 0.9138  scan+wave 0.9341  fisheye 0.9129  paired +0.29 (min -0.33, wins 15/21)
+pow=1 time 0.1*box(4)        all 0.9301  official 0.9422 (0.9432 0.9413 0.9422)  6-order worst 0.9152  scan+wave 0.9368  fisheye 0.9137  paired +0.51 (min +0.05, wins 21/21)
+pow=1 time 0.15*box(4)       all 0.9302  official 0.9419 (0.9437 0.9394 0.9427)  6-order worst 0.9156  scan+wave 0.9369  fisheye 0.9139  paired +0.52 (min +0.05, wins 21/21)
+pow=1 time 0.25*box(4)       all 0.9303  official 0.9413 (0.9437 0.9389 0.9413)  6-order worst 0.9167  scan+wave 0.9372  fisheye 0.9132  paired +0.52 (min -0.14, wins 20/21)
+pow=1 time 0.1*box(8)        all 0.9311  official 0.9421 (0.9441 0.9394 0.9427)  6-order worst 0.9152  scan+wave 0.9380  fisheye 0.9139  paired +0.60 (min +0.09, wins 21/21)
+pow=1 time 0.15*box(6)       all 0.9303  official 0.9414 (0.9432 0.9399 0.9413)  6-order worst 0.9154  scan+wave 0.9378  fisheye 0.9119  paired +0.53 (min -0.28, wins 20/21)

@@ -1,0 +1,23 @@
+
+=== 1. paired accuracy, same seed + same order (flip minus base, final T3A + LAME output)
+seed                 0       1       2
+stream                                
+fish-scan-wave  0.0166  0.0279  0.0246
+fish-wave-scan  0.0241  0.0213  0.0180
+official        0.0194  0.0199  0.0170
+scan-fish-wave  0.0156  0.0213  0.0166
+scan-wave-fish  0.0194  0.0199  0.0170
+wave-fish-scan  0.0043  0.0071  0.0019
+wave-scan-fish  0.0062  0.0137  0.0033
+mean diff +0.0160, min +0.0019, max +0.0279, flip better in 21/21 pairs
+seed 0: official base 0.8883 -> flip 0.9077 | 6-order mean 0.8827 -> 0.8970 | 6-order worst 0.8684 -> 0.8878
+seed 1: official base 0.8892 -> flip 0.9091 | 6-order mean 0.8793 -> 0.8979 | 6-order worst 0.8651 -> 0.8873
+seed 2: official base 0.8935 -> flip 0.9105 | 6-order mean 0.8805 -> 0.8941 | 6-order worst 0.8608 -> 0.8812
+by domain (all runs): {'fisheye': '0.8525 -> 0.8645', 'scanline': '0.9040 -> 0.9182', 'wave': '0.8839 -> 0.9051'}
+top-3: base 0.9540 -> flip 0.9620
+
+=== 2. base G3 errors (truth not in the base final top-3): what does the flip path do with them?
+all domains: 2042 images (97 per run) | flip final: truth enters top-3 31.5%, reaches top-1 8.7% | flipped view alone has truth in top-3 36.6%, top-1 12.0%
+fisheye: 981 images (47 per run) | flip final: truth enters top-3 24.5%, reaches top-1 5.3% | flipped view alone has truth in top-3 25.7%, top-1 8.0%
+
+all base errors 249/run: flip fixes 63/run; flip breaks 30/run

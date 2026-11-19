@@ -1,0 +1,4 @@
+base                             0.7916 paired +0.00 | lowno 0.878 swirl 0.497 chrom 0.933 infer 0.535 sepia 0.677 jpeg 0.742 diag 0.771 halft 0.880 teal 0.938 dotgr 0.916 dithe 0.916 oil 0.825
+pred ensemble (student+teacher)  0.7917 paired +0.01 | lowno 0.880 swirl 0.497 chrom 0.930 infer 0.534 sepia 0.678 jpeg 0.742 diag 0.771 halft 0.879 teal 0.937 dotgr 0.916 dithe 0.916 oil 0.826
+shift_reset .3 b1                0.7350 paired -5.66 | lowno 0.878 swirl 0.450 chrom 0.921 infer 0.547 sepia 0.557 jpeg 0.720 diag 0.591 halft 0.812 teal 0.926 dotgr 0.861 dithe 0.839 oil 0.709
+shift_reset .3 b.5               0.7504 paired -4.12 | lowno 0.878 swirl 0.460 chrom 0.927 infer 0.558 sepia 0.584 jpeg 0.741 diag 0.638 halft 0.829 teal 0.930 dotgr 0.873 dithe 0.856 oil 0.729

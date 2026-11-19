@@ -1,0 +1,13 @@
+mt=0.9 w_ent=1.0 lr=0.1 (101s)  best: pred=student lame=True val 0.8769 6ord 0.8639/0.8376 long 0.9141
+mt=0.9 w_ent=1.0 lr=0.05 (76s)  best: pred=student lame=True val 0.8821 6ord 0.8680/0.8523 long 0.9134
+mt=0.9 w_ent=0.0 lr=0.1 (52s)  best: pred=student lame=True val 0.8712 6ord 0.8576/0.8504 long 0.8949
+mt=0.9 w_ent=0.0 lr=0.05 (50s)  best: pred=student lame=True val 0.8684 6ord 0.8587/0.8504 long 0.8842
+mt=0.99 w_ent=1.0 lr=0.1 (76s)  best: pred=student lame=True val 0.8854 6ord 0.8738/0.8584 long 0.9132
+mt=0.99 w_ent=1.0 lr=0.05 (76s)  best: pred=student lame=True val 0.8807 6ord 0.8707/0.8598 long 0.9105
+mt=0.99 w_ent=0.0 lr=0.1 (50s)  best: pred=student lame=True val 0.8726 6ord 0.8608/0.8518 long 0.8981
+mt=0.99 w_ent=0.0 lr=0.05 (50s)  best: pred=student lame=True val 0.8665 6ord 0.8607/0.8518 long 0.8834
+mt=0.999 w_ent=1.0 lr=0.1 (75s)  best: pred=student lame=True val 0.8859 6ord 0.8752/0.8641 long 0.9115
+mt=0.999 w_ent=1.0 lr=0.05 (75s)  best: pred=student lame=True val 0.8802 6ord 0.8717/0.8632 long 0.9067
+mt=0.999 w_ent=0.0 lr=0.1 (50s)  best: pred=student lame=True val 0.8722 6ord 0.8615/0.8523 long 0.8954
+mt=0.999 w_ent=0.0 lr=0.05 (50s)  best: pred=student lame=True val 0.8651 6ord 0.8612/0.8527 long 0.8812
+saved

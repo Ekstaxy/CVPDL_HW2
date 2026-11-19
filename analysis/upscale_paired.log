@@ -1,0 +1,56 @@
+seed 0 done
+seed 1 done
+seed 2 done
+/home/ekstaxy/CVPDL_HW2/analysis/upscale_paired.py:106: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  res.append(dict(combo=c, official=A["official"].mean(), orders_mean=o.mean(1).mean(), orders_worst=o.min(1).mean(),
+/home/ekstaxy/CVPDL_HW2/analysis/upscale_paired.py:106: Pandas4Warning: Starting with pandas version 4.0 all arguments of min will be keyword-only.
+  res.append(dict(combo=c, official=A["official"].mean(), orders_mean=o.mean(1).mean(), orders_worst=o.min(1).mean(),
+/home/ekstaxy/CVPDL_HW2/analysis/upscale_paired.py:106: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  res.append(dict(combo=c, official=A["official"].mean(), orders_mean=o.mean(1).mean(), orders_worst=o.min(1).mean(),
+/home/ekstaxy/CVPDL_HW2/analysis/upscale_paired.py:106: Pandas4Warning: Starting with pandas version 4.0 all arguments of min will be keyword-only.
+  res.append(dict(combo=c, official=A["official"].mean(), orders_mean=o.mean(1).mean(), orders_worst=o.min(1).mean(),
+/home/ekstaxy/CVPDL_HW2/analysis/upscale_paired.py:106: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  res.append(dict(combo=c, official=A["official"].mean(), orders_mean=o.mean(1).mean(), orders_worst=o.min(1).mean(),
+/home/ekstaxy/CVPDL_HW2/analysis/upscale_paired.py:106: Pandas4Warning: Starting with pandas version 4.0 all arguments of min will be keyword-only.
+  res.append(dict(combo=c, official=A["official"].mean(), orders_mean=o.mean(1).mean(), orders_worst=o.min(1).mean(),
+/home/ekstaxy/CVPDL_HW2/analysis/upscale_paired.py:106: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  res.append(dict(combo=c, official=A["official"].mean(), orders_mean=o.mean(1).mean(), orders_worst=o.min(1).mean(),
+/home/ekstaxy/CVPDL_HW2/analysis/upscale_paired.py:106: Pandas4Warning: Starting with pandas version 4.0 all arguments of min will be keyword-only.
+  res.append(dict(combo=c, official=A["official"].mean(), orders_mean=o.mean(1).mean(), orders_worst=o.min(1).mean(),
+/home/ekstaxy/CVPDL_HW2/analysis/upscale_paired.py:106: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  res.append(dict(combo=c, official=A["official"].mean(), orders_mean=o.mean(1).mean(), orders_worst=o.min(1).mean(),
+/home/ekstaxy/CVPDL_HW2/analysis/upscale_paired.py:106: Pandas4Warning: Starting with pandas version 4.0 all arguments of min will be keyword-only.
+  res.append(dict(combo=c, official=A["official"].mean(), orders_mean=o.mean(1).mean(), orders_worst=o.min(1).mean(),
+sanity: final_OF official seed 0 = 0.9067 (default arbn_teacher, seed 0)
+
+=== 1. combinations (mean of 3 seeds; 6-order mean / worst per seed then averaged)
+        combo  official  orders_mean  orders_worst  scanline   wave  fisheye  scan_wave
+           OF    0.9097       0.8995        0.8873    0.9286 0.9083   0.8573     0.9188
+      OF+U192    0.9230       0.9125        0.8999    0.9374 0.9136   0.8848     0.9259
+      OF+U224    0.9255       0.9147        0.9039    0.9363 0.9144   0.8929     0.9258
+OF+U192+UF192    0.9283       0.9149        0.9014    0.9346 0.9146   0.8968     0.9250
+OF+U224+UF224    0.9342       0.9206        0.9072    0.9336 0.9131   0.9195     0.9237
+
+=== 2. paired vs OF (same seed + order) and per-domain wrong->right / right->wrong per run
+OF+U192         mean +0.0130  min +0.0076  max +0.0208  better in 21/21
+      scanline  wrong->right  13.9/run  right->wrong   7.1/run  net  +6.8
+      wave      wrong->right   9.5/run  right->wrong   5.7/run  net  +3.8
+      fisheye   wrong->right  19.3/run  right->wrong   2.5/run  net +16.8
+OF+U224         mean +0.0153  min +0.0076  max +0.0223  better in 21/21
+      scanline  wrong->right  12.7/run  right->wrong   6.7/run  net  +6.0
+      wave      wrong->right  10.0/run  right->wrong   5.6/run  net  +4.4
+      fisheye   wrong->right  23.4/run  right->wrong   1.6/run  net +21.8
+OF+U192+UF192   mean +0.0158  min +0.0085  max +0.0237  better in 21/21
+      scanline  wrong->right  17.3/run  right->wrong  12.6/run  net  +4.7
+      wave      wrong->right  12.5/run  right->wrong   8.0/run  net  +4.5
+      fisheye   wrong->right  27.3/run  right->wrong   3.1/run  net +24.2
+OF+U224+UF224   mean +0.0215  min +0.0076  max +0.0308  better in 21/21
+      scanline  wrong->right  18.9/run  right->wrong  15.0/run  net  +3.9
+      wave      wrong->right  13.8/run  right->wrong  10.3/run  net  +3.5
+      fisheye   wrong->right  40.3/run  right->wrong   2.2/run  net +38.1
+
+=== 3. single views (student level)
+  O     acc 0.8531 | right->wrong (of O right)  0.0% | wrong->right (of O wrong)  0.0% | hard errors (final + student wrong, 196/run) rescued to top-1  5.5%, top-3 47.5% | scanline 0.883 wave 0.850 fisheye 0.819
+  F     acc 0.8495 | right->wrong (of O right)  5.6% | wrong->right (of O wrong) 30.0% | hard errors (final + student wrong, 196/run) rescued to top-1  5.8%, top-3 46.2% | scanline 0.880 wave 0.852 fisheye 0.808
+  U192  acc 0.8135 | right->wrong (of O right) 11.1% | wrong->right (of O wrong) 37.3% | hard errors (final + student wrong, 196/run) rescued to top-1 29.9%, top-3 61.3% | scanline 0.755 wave 0.826 fisheye 0.874
+  U224  acc 0.7584 | right->wrong (of O right) 18.0% | wrong->right (of O wrong) 39.8% | hard errors (final + student wrong, 196/run) rescued to top-1 37.5%, top-3 64.6% | scanline 0.600 wave 0.801 fisheye 0.910

@@ -1,0 +1,19 @@
+{
+ "flip": true,
+ "upscales": [
+  224
+ ],
+ "upscale_flip": true,
+ "aug": "soft",
+ "view_amp": true,
+ "fused_bn": true,
+ "lame_pow": true,
+ "lame_time": 0.1,
+ "lame_tau": 8,
+ "predict_after": true,
+ "extra_steps": 2,
+ "extra_loss": "cons",
+ "extra_stride": 2,
+ "unfreeze": "conv1",
+ "lr_conv": 0.001
+}

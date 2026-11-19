@@ -1,0 +1,6 @@
+base                             0.8005 paired +0.00 | lowno 0.895 swirl 0.511 chrom 0.941 infer 0.555 sepia 0.671 jpeg 0.762 diag 0.772 halft 0.876 teal 0.945 dotgr 0.922 dithe 0.923 oil 0.837
+A: O F U192x2 (no 224)           0.7943 paired -0.62 | lowno 0.891 swirl 0.505 chrom 0.938 infer 0.532 sepia 0.679 jpeg 0.754 diag 0.782 halft 0.871 teal 0.932 dotgr 0.916 dithe 0.910 oil 0.833
+B: + U176x2                      0.8009 paired +0.04 | lowno 0.900 swirl 0.504 chrom 0.935 infer 0.551 sepia 0.665 jpeg 0.773 diag 0.775 halft 0.877 teal 0.943 dotgr 0.922 dithe 0.925 oil 0.845
+C: 224 -> 256                    0.7977 paired -0.28 | lowno 0.892 swirl 0.511 chrom 0.936 infer 0.545 sepia 0.666 jpeg 0.756 diag 0.768 halft 0.876 teal 0.944 dotgr 0.922 dithe 0.925 oil 0.835
+D: 192 -> 208                    0.7967 paired -0.38 | lowno 0.889 swirl 0.503 chrom 0.930 infer 0.554 sepia 0.669 jpeg 0.740 diag 0.766 halft 0.882 teal 0.948 dotgr 0.921 dithe 0.924 oil 0.834
+E: O F U176x2 U208x2             0.7962 paired -0.43 | lowno 0.890 swirl 0.505 chrom 0.932 infer 0.538 sepia 0.672 jpeg 0.761 diag 0.775 halft 0.877 teal 0.936 dotgr 0.918 dithe 0.917 oil 0.841

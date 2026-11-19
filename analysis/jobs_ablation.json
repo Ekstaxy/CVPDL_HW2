@@ -1,0 +1,369 @@
+[
+ {
+  "name": "full method (h2)",
+  "cfg": {
+   "flip": true,
+   "upscales": [
+    224
+   ],
+   "upscale_flip": true,
+   "aug": "soft",
+   "view_amp": true,
+   "fused_bn": true,
+   "lame_pow": true,
+   "lame_time": 0.1,
+   "lame_tau": 8,
+   "predict_after": true,
+   "extra_steps": 2,
+   "extra_loss": "cons",
+   "extra_stride": 2
+  }
+ },
+ {
+  "name": "- adaptive BN momentum (fixed 0.05)",
+  "cfg": {
+   "flip": true,
+   "upscales": [
+    224
+   ],
+   "upscale_flip": true,
+   "aug": "soft",
+   "view_amp": true,
+   "fused_bn": true,
+   "lame_pow": true,
+   "lame_time": 0.1,
+   "lame_tau": 8,
+   "predict_after": true,
+   "extra_steps": 2,
+   "extra_loss": "cons",
+   "extra_stride": 2,
+   "alpha_max": 0.05
+  }
+ },
+ {
+  "name": "- entropy loss",
+  "cfg": {
+   "flip": true,
+   "upscales": [
+    224
+   ],
+   "upscale_flip": true,
+   "aug": "soft",
+   "view_amp": true,
+   "fused_bn": true,
+   "lame_pow": true,
+   "lame_time": 0.1,
+   "lame_tau": 8,
+   "predict_after": true,
+   "extra_steps": 2,
+   "extra_loss": "cons",
+   "extra_stride": 2,
+   "w_ent": 0.0
+  }
+ },
+ {
+  "name": "- consistency loss (no teacher, no extra steps)",
+  "cfg": {
+   "flip": true,
+   "upscales": [
+    224
+   ],
+   "upscale_flip": true,
+   "aug": "soft",
+   "view_amp": true,
+   "fused_bn": true,
+   "lame_pow": true,
+   "lame_time": 0.1,
+   "lame_tau": 8,
+   "predict_after": true,
+   "extra_steps": 0,
+   "extra_loss": "cons",
+   "extra_stride": 2,
+   "w_cons": 0.0
+  }
+ },
+ {
+  "name": "- extra steps",
+  "cfg": {
+   "flip": true,
+   "upscales": [
+    224
+   ],
+   "upscale_flip": true,
+   "aug": "soft",
+   "view_amp": true,
+   "fused_bn": true,
+   "lame_pow": true,
+   "lame_time": 0.1,
+   "lame_tau": 8,
+   "predict_after": true,
+   "extra_steps": 0,
+   "extra_loss": "cons",
+   "extra_stride": 2
+  }
+ },
+ {
+  "name": "- learn first (predict before, no extra steps)",
+  "cfg": {
+   "flip": true,
+   "upscales": [
+    224
+   ],
+   "upscale_flip": true,
+   "aug": "soft",
+   "view_amp": true,
+   "fused_bn": true,
+   "lame_pow": true,
+   "lame_time": 0.1,
+   "lame_tau": 8,
+   "predict_after": false,
+   "extra_steps": 0,
+   "extra_loss": "cons",
+   "extra_stride": 2
+  }
+ },
+ {
+  "name": "- all extra views (original only)",
+  "cfg": {
+   "flip": false,
+   "upscales": [],
+   "upscale_flip": false,
+   "aug": "soft",
+   "view_amp": true,
+   "fused_bn": true,
+   "lame_pow": true,
+   "lame_time": 0.1,
+   "lame_tau": 8,
+   "predict_after": true,
+   "extra_steps": 2,
+   "extra_loss": "cons",
+   "extra_stride": 2
+  }
+ },
+ {
+  "name": "- upscaled views (original + flip)",
+  "cfg": {
+   "flip": true,
+   "upscales": [],
+   "upscale_flip": false,
+   "aug": "soft",
+   "view_amp": true,
+   "fused_bn": true,
+   "lame_pow": true,
+   "lame_time": 0.1,
+   "lame_tau": 8,
+   "predict_after": true,
+   "extra_steps": 2,
+   "extra_loss": "cons",
+   "extra_stride": 2
+  }
+ },
+ {
+  "name": "- flip views (original + U224)",
+  "cfg": {
+   "flip": false,
+   "upscales": [
+    224
+   ],
+   "upscale_flip": false,
+   "aug": "soft",
+   "view_amp": true,
+   "fused_bn": true,
+   "lame_pow": true,
+   "lame_time": 0.1,
+   "lame_tau": 8,
+   "predict_after": true,
+   "extra_steps": 2,
+   "extra_loss": "cons",
+   "extra_stride": 2
+  }
+ },
+ {
+  "name": "- T3A",
+  "cfg": {
+   "flip": true,
+   "upscales": [
+    224
+   ],
+   "upscale_flip": true,
+   "aug": "soft",
+   "view_amp": true,
+   "fused_bn": true,
+   "lame_pow": true,
+   "lame_time": 0.1,
+   "lame_tau": 8,
+   "predict_after": true,
+   "extra_steps": 2,
+   "extra_loss": "cons",
+   "extra_stride": 2,
+   "t3a_k": null
+  }
+ },
+ {
+  "name": "- LAME",
+  "cfg": {
+   "flip": true,
+   "upscales": [
+    224
+   ],
+   "upscale_flip": true,
+   "aug": "soft",
+   "view_amp": true,
+   "fused_bn": true,
+   "lame_pow": true,
+   "lame_time": 0.1,
+   "lame_tau": 8,
+   "predict_after": true,
+   "extra_steps": 2,
+   "extra_loss": "cons",
+   "extra_stride": 2,
+   "lame_k": null
+  }
+ },
+ {
+  "name": "- temporal affinity",
+  "cfg": {
+   "flip": true,
+   "upscales": [
+    224
+   ],
+   "upscale_flip": true,
+   "aug": "soft",
+   "view_amp": true,
+   "fused_bn": true,
+   "lame_pow": true,
+   "lame_time": 0.0,
+   "lame_tau": 8,
+   "predict_after": true,
+   "extra_steps": 2,
+   "extra_loss": "cons",
+   "extra_stride": 2
+  }
+ },
+ {
+  "name": "- sqrt feature transform",
+  "cfg": {
+   "flip": true,
+   "upscales": [
+    224
+   ],
+   "upscale_flip": true,
+   "aug": "soft",
+   "view_amp": true,
+   "fused_bn": true,
+   "lame_pow": false,
+   "lame_time": 0.1,
+   "lame_tau": 8,
+   "predict_after": true,
+   "extra_steps": 2,
+   "extra_loss": "cons",
+   "extra_stride": 2
+  }
+ },
+ {
+  "name": "- soft aug (full strong aug)",
+  "cfg": {
+   "flip": true,
+   "upscales": [
+    224
+   ],
+   "upscale_flip": true,
+   "aug": "full",
+   "view_amp": true,
+   "fused_bn": true,
+   "lame_pow": true,
+   "lame_time": 0.1,
+   "lame_tau": 8,
+   "predict_after": true,
+   "extra_steps": 2,
+   "extra_loss": "cons",
+   "extra_stride": 2
+  }
+ },
+ {
+  "name": "[cum] source",
+  "method": "source"
+ },
+ {
+  "name": "[cum] BN-Adapt",
+  "method": "bn_adapt"
+ },
+ {
+  "name": "[cum] Robust BN (alpha 0.05)",
+  "method": "rbn"
+ },
+ {
+  "name": "[cum] + adaptive momentum (arbn)",
+  "method": "arbn"
+ },
+ {
+  "name": "[cum] + LAME",
+  "method": "arbn_lame"
+ },
+ {
+  "name": "[cum] + TENT",
+  "method": "arbn_tent"
+ },
+ {
+  "name": "[cum] + teacher consistency + T3A",
+  "cfg": {
+   "flip": false,
+   "aug": "soft",
+   "fused_bn": true
+  }
+ },
+ {
+  "name": "[cum] + flip view",
+  "cfg": {
+   "flip": true,
+   "aug": "soft",
+   "fused_bn": true
+  }
+ },
+ {
+  "name": "[cum] + upscaled views",
+  "cfg": {
+   "flip": true,
+   "upscales": [
+    224
+   ],
+   "upscale_flip": true,
+   "aug": "soft",
+   "view_amp": true,
+   "fused_bn": true
+  }
+ },
+ {
+  "name": "[cum] + temporal LAME (sqrt + time)",
+  "cfg": {
+   "flip": true,
+   "upscales": [
+    224
+   ],
+   "upscale_flip": true,
+   "aug": "soft",
+   "view_amp": true,
+   "fused_bn": true,
+   "lame_pow": true,
+   "lame_time": 0.1,
+   "lame_tau": 8
+  }
+ },
+ {
+  "name": "[cum] + learn first",
+  "cfg": {
+   "flip": true,
+   "upscales": [
+    224
+   ],
+   "upscale_flip": true,
+   "aug": "soft",
+   "view_amp": true,
+   "fused_bn": true,
+   "lame_pow": true,
+   "lame_time": 0.1,
+   "lame_tau": 8,
+   "predict_after": true
+  }
+ }
+]

@@ -1,0 +1,4 @@
+base                                     all 0.9448  official 0.9525  6-order worst 0.9369  scan+wave 0.9530  fisheye 0.9248  paired +0.00 (min +0.00, wins 0/21)
+view_avg logprob                         all 0.9448  official 0.9525  6-order worst 0.9369  scan+wave 0.9530  fisheye 0.9248  paired +0.00 (min +0.00, wins 0/21)
+add_pre                                  all 0.9424  official 0.9493  6-order worst 0.9336  scan+wave 0.9518  fisheye 0.9195  paired -0.24 (min -0.76, wins 3/21)
+add_pre + logprob                        all 0.9424  official 0.9493  6-order worst 0.9336  scan+wave 0.9518  fisheye 0.9195  paired -0.24 (min -0.76, wins 3/21)

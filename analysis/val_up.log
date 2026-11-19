@@ -1,0 +1,4 @@
+base                                     all 0.9388  official 0.9462  6-order worst 0.9296  scan+wave 0.9491  fisheye 0.9136  paired +0.00 (min +0.00, wins 0/21)
++up192 flip too                          all 0.9448  official 0.9525  6-order worst 0.9369  scan+wave 0.9530  fisheye 0.9248  paired +0.60 (min +0.05, wins 21/21)
++up192 +up256                            all 0.9455  official 0.9534  6-order worst 0.9367  scan+wave 0.9517  fisheye 0.9304  paired +0.67 (min +0.28, wins 21/21)
++up192+ fast_bn                          all 0.9453  official 0.9531  6-order worst 0.9361  scan+wave 0.9530  fisheye 0.9265  paired +0.65 (min -0.09, wins 20/21)

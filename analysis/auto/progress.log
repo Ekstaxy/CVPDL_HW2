@@ -1,0 +1,55 @@
+05:03:05 === stage 0: baseline
+05:05:10 baseline {'all_mean': np.float64(0.901), 'official': np.float64(0.9097), 'orders_mean': np.float64(0.8995), 'orders_worst': np.float64(0.8873), 'scan_wave': np.float64(0.9188), 'after_shift': np.float64(0.8194), 'scanline': np.float64(0.9286), 'wave': np.float64(0.9083), 'fisheye': np.float64(0.8573)}
+05:06:01 baseline test time 35.4s; extra view cost per size (s): 160:2.4, 128:1.4, 176:3.0, 192:3.7, 208:4.3, 224:5.0, 256:6.4
+05:06:01 === stage 1: prediction views
+05:06:01 stage 1: 86 view sets, 77 to simulate within budget (+4 s margin)
+05:08:18   views recorded for seed 0
+05:10:34   views recorded for seed 1
+05:12:51   views recorded for seed 2
+05:13:05   simulated 10/77
+05:13:19   simulated 20/77
+05:13:33   simulated 30/77
+05:13:47   simulated 40/77
+05:14:01   simulated 50/77
+05:14:15   simulated 60/77
+05:14:29   simulated 70/77
+05:14:39   simulated 77/77
+05:14:39 stage 1: O+F all_mean 0.9010 scan_wave 0.9188
+05:14:39   safe pick O+F+U224+UF224: all_mean 0.9225, scan_wave 0.9237, est 45.5s
+05:14:39   max pick  O+F+U224+UF224: all_mean 0.9225, scan_wave 0.9237, est 45.5s
+05:17:37 stage 1 safe pick verified online: all_mean 0.9225 (sim 0.9225), paired +0.0215, wins 21/21
+05:17:37 === stage 2: parameters / structure (from the safe pick)
+05:20:34 stage 2: lr=0.05: paired -0.0060 (min -0.0189, wins 0/21), scan_wave -0.0042, all_mean 0.9165 -> reject
+05:23:32 stage 2: lr=0.15: paired +0.0013 (min -0.0047, wins 11/21), scan_wave +0.0009, all_mean 0.9238 -> reject
+05:26:30 stage 2: lr=0.2: paired +0.0015 (min -0.0066, wins 11/21), scan_wave -0.0005, all_mean 0.9240 -> reject
+05:29:27 stage 2: w_ent=0.5: paired -0.0007 (min -0.0052, wins 8/21), scan_wave +0.0005, all_mean 0.9218 -> reject
+05:32:25 stage 2: w_ent=1.5: paired +0.0005 (min -0.0071, wins 12/21), scan_wave +0.0010, all_mean 0.9230 -> reject
+05:35:23 stage 2: w_cons=0.5: paired -0.0030 (min -0.0104, wins 5/21), scan_wave -0.0016, all_mean 0.9196 -> reject
+05:38:22 stage 2: w_cons=2.0: paired -0.0002 (min -0.0080, wins 10/21), scan_wave -0.0007, all_mean 0.9223 -> reject
+05:41:20 stage 2: mt=0.99: paired -0.0001 (min -0.0024, wins 8/21), scan_wave +0.0002, all_mean 0.9224 -> reject
+05:44:18 stage 2: mt=0.995: paired +0.0002 (min -0.0019, wins 11/21), scan_wave +0.0005, all_mean 0.9228 -> reject
+05:47:18 stage 2: t3a_k=20: paired -0.0001 (min -0.0057, wins 10/21), scan_wave +0.0002, all_mean 0.9224 -> reject
+05:50:16 stage 2: t3a_k=100: paired -0.0002 (min -0.0019, wins 7/21), scan_wave -0.0003, all_mean 0.9223 -> reject
+05:53:30 stage 2: t3a_k=None: paired -0.0078 (min -0.0170, wins 0/21), scan_wave -0.0068, all_mean 0.9147 -> reject
+05:56:28 stage 2: lame_k=3: paired -0.0121 (min -0.0194, wins 0/21), scan_wave -0.0132, all_mean 0.9104 -> reject
+05:59:26 stage 2: lame_k=8: paired -0.0020 (min -0.0118, wins 7/21), scan_wave -0.0015, all_mean 0.9205 -> reject
+06:02:24 stage 2: lame_k=None: paired -0.0340 (min -0.0426, wins 0/21), scan_wave -0.0374, all_mean 0.8885 -> reject
+06:05:21 stage 2: alpha_max=0.3: paired -0.0025 (min -0.0090, wins 4/21), scan_wave -0.0033, all_mean 0.9200 -> reject
+06:08:19 stage 2: alpha_max=0.8: paired -0.0008 (min -0.0057, wins 9/21), scan_wave +0.0001, all_mean 0.9217 -> reject
+06:11:17 stage 2: gain=0.5: paired +0.0015 (min -0.0090, wins 13/21), scan_wave -0.0031, all_mean 0.9240 -> reject
+06:14:15 stage 2: gain=2.0: paired -0.0039 (min -0.0170, wins 6/21), scan_wave -0.0003, all_mean 0.9186 -> reject
+06:17:14 stage 2: aug=soft: paired +0.0033 (min -0.0052, wins 14/21), scan_wave +0.0054, all_mean 0.9258 -> ACCEPT
+06:20:14 stage 2: aug=full: paired -0.0005 (min -0.0090, wins 10/21), scan_wave -0.0038, all_mean 0.9253 -> reject
+06:20:14 stage 2 final config: {'flip': True, 'upscales': [224], 'upscale_flip': True, 'aug': 'soft'} {'all_mean': np.float64(0.9258), 'official': np.float64(0.9373), 'orders_mean': np.float64(0.9238), 'orders_worst': np.float64(0.9096), 'scan_wave': np.float64(0.9291), 'after_shift': np.float64(0.8702), 'scanline': np.float64(0.9391), 'wave': np.float64(0.9184), 'fisheye': np.float64(0.9176)}
+06:20:14 === stage 3: official runs
+06:21:20 official run safe0: val 0.9379734848484849, test 51.9s, VRAM 7636.0 MiB, healthy True -> fall back
+06:22:26 official run safe1: val 0.9337121212121212, test 51.6s, VRAM 7636.0 MiB, healthy True -> fall back
+06:23:14 official run safe2: val 0.9043560606060606, test 36.0s, VRAM 6884.0 MiB, healthy True -> OK
+06:23:14 best_config.json written: {}
+06:24:20 official run max: val 0.9379734848484849, test 51.9s, VRAM 7636.0, healthy True
+06:24:20 summary written to analysis/AUTO_SUMMARY.md
+06:24:20 === done
+06:41:39 auto_fix soft_U224 {'cfg': {'flip': True, 'upscales': [224], 'upscale_flip': False, 'aug': 'soft'}, 'all_mean': 0.9164, 'official': 0.9246, 'orders_mean': 0.915, 'orders_worst': 0.9036, 'scan_wave': 0.9251, 'after_shift': 0.8516, 'scanline': 0.9342, 'wave': 0.9154, 'fisheye': 0.8949, 'vs_default': np.float64(0.0154), 'wins': 20, 'vs_4view': np.float64(-0.0094), 'harness_val': 0.9232954545454546, 'test_s': 44.8, 'vram': 7636.0, 'healthy': True, 'file': 'out/auto_soft_U224/test_pred.csv'}
+06:44:57 auto_fix soft_U192 {'cfg': {'flip': True, 'upscales': [192], 'upscale_flip': False, 'aug': 'soft'}, 'all_mean': 0.9153, 'official': 0.9255, 'orders_mean': 0.9136, 'orders_worst': 0.9026, 'scan_wave': 0.9269, 'after_shift': 0.8423, 'scanline': 0.9371, 'wave': 0.916, 'fisheye': 0.8867, 'vs_default': np.float64(0.0143), 'wins': 21, 'vs_4view': np.float64(-0.0105), 'harness_val': 0.9199810606060606, 'test_s': 42.2, 'vram': 7376.0, 'healthy': True, 'file': 'out/auto_soft_U192/test_pred.csv'}
+06:48:55 auto_fix soft_U224UF_amp {'cfg': {'flip': True, 'upscales': [224], 'upscale_flip': True, 'aug': 'soft', 'view_amp': True}, 'all_mean': 0.9258, 'official': 0.9375, 'orders_mean': 0.9239, 'orders_worst': 0.9094, 'scan_wave': 0.9291, 'after_shift': 0.87, 'scanline': 0.939, 'wave': 0.9185, 'fisheye': 0.9178, 'vs_default': np.float64(0.0248), 'wins': 21, 'vs_4view': np.float64(0.0001), 'harness_val': 0.9384469696969697, 'test_s': 49.7, 'vram': 7462.0, 'healthy': True, 'file': 'out/auto_soft_U224UF_amp/test_pred.csv'}
+06:52:18 auto_fix soft_U224_amp {'cfg': {'flip': True, 'upscales': [224], 'upscale_flip': False, 'aug': 'soft', 'view_amp': True}, 'all_mean': 0.9164, 'official': 0.9244, 'orders_mean': 0.915, 'orders_worst': 0.9039, 'scan_wave': 0.925, 'after_shift': 0.8517, 'scanline': 0.9339, 'wave': 0.9155, 'fisheye': 0.8951, 'vs_default': np.float64(0.0154), 'wins': 20, 'vs_4view': np.float64(-0.0094), 'harness_val': 0.9242424242424242, 'test_s': 42.5, 'vram': 7462.0, 'healthy': True, 'file': 'out/auto_soft_U224_amp/test_pred.csv'}

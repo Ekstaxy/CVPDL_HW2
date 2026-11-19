@@ -1,0 +1,9 @@
+{
+ "flip": true,
+ "upscales": [
+  224
+ ],
+ "upscale_flip": true,
+ "aug": "soft",
+ "fused_bn": true
+}

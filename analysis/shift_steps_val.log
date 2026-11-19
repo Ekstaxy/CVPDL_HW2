@@ -1,0 +1,3 @@
+base                                     all 0.9380  official 0.9446  6-order worst 0.9291  scan+wave 0.9492  fisheye 0.9106  paired +0.00 (min +0.00, wins 0/21)
+h2 fast + 4 more at shift                all 0.9378  official 0.9451  6-order worst 0.9287  scan+wave 0.9500  fisheye 0.9080  paired -0.02 (min -1.23, wins 12/21)
+h2 fast + 8 more at shift                all 0.9382  official 0.9512  6-order worst 0.9261  scan+wave 0.9506  fisheye 0.9077  paired +0.02 (min -1.37, wins 11/21)

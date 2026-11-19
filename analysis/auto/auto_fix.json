@@ -1,0 +1,112 @@
+{
+ "soft_U224": {
+  "cfg": {
+   "flip": true,
+   "upscales": [
+    224
+   ],
+   "upscale_flip": false,
+   "aug": "soft"
+  },
+  "all_mean": 0.9164,
+  "official": 0.9246,
+  "orders_mean": 0.915,
+  "orders_worst": 0.9036,
+  "scan_wave": 0.9251,
+  "after_shift": 0.8516,
+  "scanline": 0.9342,
+  "wave": 0.9154,
+  "fisheye": 0.8949,
+  "vs_default": 0.0154,
+  "wins": 20,
+  "vs_4view": -0.0094,
+  "harness_val": 0.9232954545454546,
+  "test_s": 44.8,
+  "vram": 7636.0,
+  "healthy": true,
+  "file": "out/auto_soft_U224/test_pred.csv"
+ },
+ "soft_U192": {
+  "cfg": {
+   "flip": true,
+   "upscales": [
+    192
+   ],
+   "upscale_flip": false,
+   "aug": "soft"
+  },
+  "all_mean": 0.9153,
+  "official": 0.9255,
+  "orders_mean": 0.9136,
+  "orders_worst": 0.9026,
+  "scan_wave": 0.9269,
+  "after_shift": 0.8423,
+  "scanline": 0.9371,
+  "wave": 0.916,
+  "fisheye": 0.8867,
+  "vs_default": 0.0143,
+  "wins": 21,
+  "vs_4view": -0.0105,
+  "harness_val": 0.9199810606060606,
+  "test_s": 42.2,
+  "vram": 7376.0,
+  "healthy": true,
+  "file": "out/auto_soft_U192/test_pred.csv"
+ },
+ "soft_U224UF_amp": {
+  "cfg": {
+   "flip": true,
+   "upscales": [
+    224
+   ],
+   "upscale_flip": true,
+   "aug": "soft",
+   "view_amp": true
+  },
+  "all_mean": 0.9258,
+  "official": 0.9375,
+  "orders_mean": 0.9239,
+  "orders_worst": 0.9094,
+  "scan_wave": 0.9291,
+  "after_shift": 0.87,
+  "scanline": 0.939,
+  "wave": 0.9185,
+  "fisheye": 0.9178,
+  "vs_default": 0.0248,
+  "wins": 21,
+  "vs_4view": 0.0001,
+  "harness_val": 0.9384469696969697,
+  "test_s": 49.7,
+  "vram": 7462.0,
+  "healthy": true,
+  "file": "out/auto_soft_U224UF_amp/test_pred.csv"
+ },
+ "soft_U224_amp": {
+  "cfg": {
+   "flip": true,
+   "upscales": [
+    224
+   ],
+   "upscale_flip": false,
+   "aug": "soft",
+   "view_amp": true
+  },
+  "all_mean": 0.9164,
+  "official": 0.9244,
+  "orders_mean": 0.915,
+  "orders_worst": 0.9039,
+  "scan_wave": 0.925,
+  "after_shift": 0.8517,
+  "scanline": 0.9339,
+  "wave": 0.9155,
+  "fisheye": 0.8951,
+  "vs_default": 0.0154,
+  "wins": 20,
+  "vs_4view": -0.0094,
+  "harness_val": 0.9242424242424242,
+  "test_s": 42.5,
+  "vram": 7462.0,
+  "healthy": true,
+  "file": "out/auto_soft_U224_amp/test_pred.csv"
+ }
+}

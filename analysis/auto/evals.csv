@@ -1,0 +1,610 @@
+cfg,seed,stream,acc,n_scanline,n_wave,n_fisheye,c_scanline,c_wave,c_fisheye,c_early,n_early
+{},0,official,0.9067234848484849,777,723,612,721,666,528,209,256
+{},0,scan-wave-fish,0.9067234848484849,777,723,612,721,666,528,209,256
+{},0,scan-fish-wave,0.9057765151515151,777,723,612,725,666,522,203,256
+{},0,wave-scan-fish,0.8858901515151515,777,723,612,720,642,509,206,256
+{},0,wave-fish-scan,0.9095643939393939,777,723,612,731,646,544,220,256
+{},0,fish-scan-wave,0.8929924242424242,777,723,612,717,646,523,212,256
+{},0,fish-wave-scan,0.8963068181818182,777,723,612,718,652,523,215,256
+{},1,official,0.9147727272727273,777,723,612,727,668,537,215,256
+{},1,scan-wave-fish,0.9147727272727273,777,723,612,727,668,537,215,256
+{},1,scan-fish-wave,0.8986742424242424,777,723,612,730,651,517,198,256
+{},1,wave-scan-fish,0.8882575757575758,777,723,612,706,655,515,205,256
+{},1,wave-fish-scan,0.9105113636363636,777,723,612,720,661,542,220,256
+{},1,fish-scan-wave,0.8910984848484849,777,723,612,713,655,514,211,256
+{},1,fish-wave-scan,0.8929924242424242,777,723,612,720,650,516,213,256
+{},2,official,0.9076704545454546,777,723,612,726,667,524,208,256
+{},2,scan-wave-fish,0.9076704545454546,777,723,612,726,667,524,208,256
+{},2,scan-fish-wave,0.9029356060606061,777,723,612,728,659,520,200,256
+{},2,wave-scan-fish,0.8934659090909091,777,723,612,712,657,518,205,256
+{},2,wave-fish-scan,0.9166666666666666,777,723,612,731,663,542,222,256
+{},2,fish-scan-wave,0.8877840909090909,777,723,612,717,641,517,205,256
+{},2,fish-wave-scan,0.8896780303030303,777,723,612,716,645,518,206,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,official,0.9337121212121212,777,723,612,732,670,570,223,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,scan-wave-fish,0.9337121212121212,777,723,612,732,670,570,223,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,scan-fish-wave,0.9261363636363636,777,723,612,731,659,566,216,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,wave-scan-fish,0.9109848484848485,777,723,612,716,650,558,226,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,wave-fish-scan,0.9171401515151515,777,723,612,715,652,570,221,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,fish-scan-wave,0.9133522727272727,777,723,612,716,651,562,211,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,fish-wave-scan,0.9266098484848485,777,723,612,722,668,567,222,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,official,0.9393939393939394,777,723,612,741,671,572,222,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,scan-wave-fish,0.9393939393939394,777,723,612,741,671,572,222,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,scan-fish-wave,0.9256628787878788,777,723,612,740,656,559,211,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,wave-scan-fish,0.9138257575757576,777,723,612,715,653,562,226,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,wave-fish-scan,0.9199810606060606,777,723,612,723,654,566,220,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,fish-scan-wave,0.9057765151515151,777,723,612,708,657,548,205,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,fish-wave-scan,0.912405303030303,777,723,612,721,653,553,221,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,official,0.9294507575757576,777,723,612,737,667,559,217,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,scan-wave-fish,0.9294507575757576,777,723,612,737,667,559,217,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,scan-fish-wave,0.9247159090909091,777,723,612,736,655,562,209,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,wave-scan-fish,0.9180871212121212,777,723,612,710,661,568,222,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,wave-fish-scan,0.9275568181818182,777,723,612,721,662,576,223,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,fish-scan-wave,0.9048295454545454,777,723,612,710,654,547,207,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,fish-wave-scan,0.9204545454545454,777,723,612,729,663,552,218,256
+"{""flip"": true, ""lr"": 0.05, ""upscale_flip"": true, ""upscales"": [224]}",0,official,0.9270833333333334,777,723,612,721,672,565,219,256
+"{""flip"": true, ""lr"": 0.05, ""upscale_flip"": true, ""upscales"": [224]}",0,scan-wave-fish,0.9270833333333334,777,723,612,721,672,565,219,256
+"{""flip"": true, ""lr"": 0.05, ""upscale_flip"": true, ""upscales"": [224]}",0,scan-fish-wave,0.9166666666666666,777,723,612,722,656,558,215,256
+"{""flip"": true, ""lr"": 0.05, ""upscale_flip"": true, ""upscales"": [224]}",0,wave-scan-fish,0.9090909090909091,777,723,612,704,661,555,221,256
+"{""flip"": true, ""lr"": 0.05, ""upscale_flip"": true, ""upscales"": [224]}",0,wave-fish-scan,0.9133522727272727,777,723,612,703,663,563,219,256
+"{""flip"": true, ""lr"": 0.05, ""upscale_flip"": true, ""upscales"": [224]}",0,fish-scan-wave,0.9024621212121212,777,723,612,708,653,545,209,256
+"{""flip"": true, ""lr"": 0.05, ""upscale_flip"": true, ""upscales"": [224]}",0,fish-wave-scan,0.9076704545454546,777,723,612,705,661,551,215,256
+"{""flip"": true, ""lr"": 0.05, ""upscale_flip"": true, ""upscales"": [224]}",1,official,0.9308712121212122,777,723,612,731,673,562,218,256
+"{""flip"": true, ""lr"": 0.05, ""upscale_flip"": true, ""upscales"": [224]}",1,scan-wave-fish,0.9308712121212122,777,723,612,731,673,562,218,256
+"{""flip"": true, ""lr"": 0.05, ""upscale_flip"": true, ""upscales"": [224]}",1,scan-fish-wave,0.9228219696969697,777,723,612,730,659,560,213,256
+"{""flip"": true, ""lr"": 0.05, ""upscale_flip"": true, ""upscales"": [224]}",1,wave-scan-fish,0.912405303030303,777,723,612,712,659,556,222,256
+"{""flip"": true, ""lr"": 0.05, ""upscale_flip"": true, ""upscales"": [224]}",1,wave-fish-scan,0.9152462121212122,777,723,612,708,660,565,218,256
+"{""flip"": true, ""lr"": 0.05, ""upscale_flip"": true, ""upscales"": [224]}",1,fish-scan-wave,0.8972537878787878,777,723,612,696,658,541,205,256
+"{""flip"": true, ""lr"": 0.05, ""upscale_flip"": true, ""upscales"": [224]}",1,fish-wave-scan,0.9095643939393939,777,723,612,713,660,548,216,256
+"{""flip"": true, ""lr"": 0.05, ""upscale_flip"": true, ""upscales"": [224]}",2,official,0.9294507575757576,777,723,612,734,668,561,216,256
+"{""flip"": true, ""lr"": 0.05, ""upscale_flip"": true, ""upscales"": [224]}",2,scan-wave-fish,0.9294507575757576,777,723,612,734,668,561,216,256
+"{""flip"": true, ""lr"": 0.05, ""upscale_flip"": true, ""upscales"": [224]}",2,scan-fish-wave,0.9237689393939394,777,723,612,733,657,561,211,256
+"{""flip"": true, ""lr"": 0.05, ""upscale_flip"": true, ""upscales"": [224]}",2,wave-scan-fish,0.9086174242424242,777,723,612,701,666,552,218,256
+"{""flip"": true, ""lr"": 0.05, ""upscale_flip"": true, ""upscales"": [224]}",2,wave-fish-scan,0.9161931818181818,777,723,612,706,667,562,219,256
+"{""flip"": true, ""lr"": 0.05, ""upscale_flip"": true, ""upscales"": [224]}",2,fish-scan-wave,0.9019886363636364,777,723,612,703,660,542,202,256
+"{""flip"": true, ""lr"": 0.05, ""upscale_flip"": true, ""upscales"": [224]}",2,fish-wave-scan,0.9152462121212122,777,723,612,722,661,550,218,256
+"{""flip"": true, ""lr"": 0.15, ""upscale_flip"": true, ""upscales"": [224]}",0,official,0.9327651515151515,777,723,612,740,672,558,222,256
+"{""flip"": true, ""lr"": 0.15, ""upscale_flip"": true, ""upscales"": [224]}",0,scan-wave-fish,0.9327651515151515,777,723,612,740,672,558,222,256
+"{""flip"": true, ""lr"": 0.15, ""upscale_flip"": true, ""upscales"": [224]}",0,scan-fish-wave,0.9303977272727273,777,723,612,739,655,571,218,256
+"{""flip"": true, ""lr"": 0.15, ""upscale_flip"": true, ""upscales"": [224]}",0,wave-scan-fish,0.9128787878787878,777,723,612,710,653,565,229,256
+"{""flip"": true, ""lr"": 0.15, ""upscale_flip"": true, ""upscales"": [224]}",0,wave-fish-scan,0.912405303030303,777,723,612,702,655,570,224,256
+"{""flip"": true, ""lr"": 0.15, ""upscale_flip"": true, ""upscales"": [224]}",0,fish-scan-wave,0.9138257575757576,777,723,612,723,642,565,211,256
+"{""flip"": true, ""lr"": 0.15, ""upscale_flip"": true, ""upscales"": [224]}",0,fish-wave-scan,0.9332386363636364,777,723,612,730,671,570,218,256
+"{""flip"": true, ""lr"": 0.15, ""upscale_flip"": true, ""upscales"": [224]}",1,official,0.9393939393939394,777,723,612,743,669,572,225,256
+"{""flip"": true, ""lr"": 0.15, ""upscale_flip"": true, ""upscales"": [224]}",1,scan-wave-fish,0.9393939393939394,777,723,612,743,669,572,225,256
+"{""flip"": true, ""lr"": 0.15, ""upscale_flip"": true, ""upscales"": [224]}",1,scan-fish-wave,0.9247159090909091,777,723,612,742,656,555,210,256
+"{""flip"": true, ""lr"": 0.15, ""upscale_flip"": true, ""upscales"": [224]}",1,wave-scan-fish,0.9195075757575758,777,723,612,721,652,569,228,256
+"{""flip"": true, ""lr"": 0.15, ""upscale_flip"": true, ""upscales"": [224]}",1,wave-fish-scan,0.9185606060606061,777,723,612,720,653,567,221,256
+"{""flip"": true, ""lr"": 0.15, ""upscale_flip"": true, ""upscales"": [224]}",1,fish-scan-wave,0.9071969696969697,777,723,612,705,661,550,205,256
+"{""flip"": true, ""lr"": 0.15, ""upscale_flip"": true, ""upscales"": [224]}",1,fish-wave-scan,0.9204545454545454,777,723,612,729,662,553,224,256
+"{""flip"": true, ""lr"": 0.15, ""upscale_flip"": true, ""upscales"": [224]}",2,official,0.9270833333333334,777,723,612,742,648,568,224,256
+"{""flip"": true, ""lr"": 0.15, ""upscale_flip"": true, ""upscales"": [224]}",2,scan-wave-fish,0.9270833333333334,777,723,612,742,648,568,224,256
+"{""flip"": true, ""lr"": 0.15, ""upscale_flip"": true, ""upscales"": [224]}",2,scan-fish-wave,0.9308712121212122,777,723,612,742,661,563,210,256
+"{""flip"": true, ""lr"": 0.15, ""upscale_flip"": true, ""upscales"": [224]}",2,wave-scan-fish,0.9204545454545454,777,723,612,714,661,569,224,256
+"{""flip"": true, ""lr"": 0.15, ""upscale_flip"": true, ""upscales"": [224]}",2,wave-fish-scan,0.931344696969697,777,723,612,727,662,578,223,256
+"{""flip"": true, ""lr"": 0.15, ""upscale_flip"": true, ""upscales"": [224]}",2,fish-scan-wave,0.9076704545454546,777,723,612,714,652,551,204,256
+"{""flip"": true, ""lr"": 0.15, ""upscale_flip"": true, ""upscales"": [224]}",2,fish-wave-scan,0.9171401515151515,777,723,612,732,650,555,221,256
+"{""flip"": true, ""lr"": 0.2, ""upscale_flip"": true, ""upscales"": [224]}",0,official,0.9299242424242424,777,723,612,740,656,568,224,256
+"{""flip"": true, ""lr"": 0.2, ""upscale_flip"": true, ""upscales"": [224]}",0,scan-wave-fish,0.9299242424242424,777,723,612,740,656,568,224,256
+"{""flip"": true, ""lr"": 0.2, ""upscale_flip"": true, ""upscales"": [224]}",0,scan-fish-wave,0.9308712121212122,777,723,612,739,656,571,218,256
+"{""flip"": true, ""lr"": 0.2, ""upscale_flip"": true, ""upscales"": [224]}",0,wave-scan-fish,0.9133522727272727,777,723,612,710,653,566,224,256
+"{""flip"": true, ""lr"": 0.2, ""upscale_flip"": true, ""upscales"": [224]}",0,wave-fish-scan,0.9185606060606061,777,723,612,714,655,571,226,256
+"{""flip"": true, ""lr"": 0.2, ""upscale_flip"": true, ""upscales"": [224]}",0,fish-scan-wave,0.9251893939393939,777,723,612,734,648,572,213,256
+"{""flip"": true, ""lr"": 0.2, ""upscale_flip"": true, ""upscales"": [224]}",0,fish-wave-scan,0.9275568181818182,777,723,612,730,651,578,225,256
+"{""flip"": true, ""lr"": 0.2, ""upscale_flip"": true, ""upscales"": [224]}",1,official,0.9384469696969697,777,723,612,741,672,569,232,256
+"{""flip"": true, ""lr"": 0.2, ""upscale_flip"": true, ""upscales"": [224]}",1,scan-wave-fish,0.9384469696969697,777,723,612,741,672,569,232,256
+"{""flip"": true, ""lr"": 0.2, ""upscale_flip"": true, ""upscales"": [224]}",1,scan-fish-wave,0.9232954545454546,777,723,612,741,652,557,211,256
+"{""flip"": true, ""lr"": 0.2, ""upscale_flip"": true, ""upscales"": [224]}",1,wave-scan-fish,0.9114583333333334,777,723,612,714,646,565,229,256
+"{""flip"": true, ""lr"": 0.2, ""upscale_flip"": true, ""upscales"": [224]}",1,wave-fish-scan,0.9133522727272727,777,723,612,720,647,562,226,256
+"{""flip"": true, ""lr"": 0.2, ""upscale_flip"": true, ""upscales"": [224]}",1,fish-scan-wave,0.915719696969697,777,723,612,724,657,553,218,256
+"{""flip"": true, ""lr"": 0.2, ""upscale_flip"": true, ""upscales"": [224]}",1,fish-wave-scan,0.921875,777,723,612,729,658,560,230,256
+"{""flip"": true, ""lr"": 0.2, ""upscale_flip"": true, ""upscales"": [224]}",2,official,0.9275568181818182,777,723,612,738,650,571,228,256
+"{""flip"": true, ""lr"": 0.2, ""upscale_flip"": true, ""upscales"": [224]}",2,scan-wave-fish,0.9275568181818182,777,723,612,738,650,571,228,256
+"{""flip"": true, ""lr"": 0.2, ""upscale_flip"": true, ""upscales"": [224]}",2,scan-fish-wave,0.9289772727272727,777,723,612,738,655,569,211,256
+"{""flip"": true, ""lr"": 0.2, ""upscale_flip"": true, ""upscales"": [224]}",2,wave-scan-fish,0.9204545454545454,777,723,612,716,652,576,226,256
+"{""flip"": true, ""lr"": 0.2, ""upscale_flip"": true, ""upscales"": [224]}",2,wave-fish-scan,0.9261363636363636,777,723,612,728,653,575,227,256
+"{""flip"": true, ""lr"": 0.2, ""upscale_flip"": true, ""upscales"": [224]}",2,fish-scan-wave,0.9090909090909091,777,723,612,718,649,553,203,256
+"{""flip"": true, ""lr"": 0.2, ""upscale_flip"": true, ""upscales"": [224]}",2,fish-wave-scan,0.9266098484848485,777,723,612,732,667,558,223,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 0.5}",0,official,0.9322916666666666,777,723,612,729,673,567,222,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 0.5}",0,scan-wave-fish,0.9322916666666666,777,723,612,729,673,567,222,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 0.5}",0,scan-fish-wave,0.9256628787878788,777,723,612,728,660,567,218,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 0.5}",0,wave-scan-fish,0.9128787878787878,777,723,612,713,660,555,223,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 0.5}",0,wave-fish-scan,0.9190340909090909,777,723,612,711,662,568,221,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 0.5}",0,fish-scan-wave,0.9133522727272727,777,723,612,718,653,558,211,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 0.5}",0,fish-wave-scan,0.9214015151515151,777,723,612,720,663,563,220,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 0.5}",1,official,0.9375,777,723,612,738,676,566,221,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 0.5}",1,scan-wave-fish,0.9375,777,723,612,738,676,566,221,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 0.5}",1,scan-fish-wave,0.921875,777,723,612,737,650,560,211,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 0.5}",1,wave-scan-fish,0.9142992424242424,777,723,612,710,660,561,221,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 0.5}",1,wave-fish-scan,0.9195075757575758,777,723,612,716,661,565,219,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 0.5}",1,fish-scan-wave,0.9095643939393939,777,723,612,712,661,548,209,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 0.5}",1,fish-wave-scan,0.9147727272727273,777,723,612,722,657,553,212,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 0.5}",2,official,0.9303977272727273,777,723,612,739,664,562,218,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 0.5}",2,scan-wave-fish,0.9303977272727273,777,723,612,739,664,562,218,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 0.5}",2,scan-fish-wave,0.921875,777,723,612,739,650,558,207,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 0.5}",2,wave-scan-fish,0.9128787878787878,777,723,612,704,665,559,218,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 0.5}",2,wave-fish-scan,0.9237689393939394,777,723,612,718,666,567,220,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 0.5}",2,fish-scan-wave,0.9076704545454546,777,723,612,713,658,546,211,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 0.5}",2,fish-wave-scan,0.9190340909090909,777,723,612,728,661,552,216,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 1.5}",0,official,0.9322916666666666,777,723,612,732,668,569,221,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 1.5}",0,scan-wave-fish,0.9322916666666666,777,723,612,732,668,569,221,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 1.5}",0,scan-fish-wave,0.9285037878787878,777,723,612,731,661,569,219,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 1.5}",0,wave-scan-fish,0.915719696969697,777,723,612,716,660,558,223,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 1.5}",0,wave-fish-scan,0.9223484848484849,777,723,612,718,662,568,222,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 1.5}",0,fish-scan-wave,0.9067234848484849,777,723,612,711,653,551,210,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 1.5}",0,fish-wave-scan,0.921875,777,723,612,727,663,557,225,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 1.5}",1,official,0.9417613636363636,777,723,612,742,675,572,223,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 1.5}",1,scan-wave-fish,0.9417613636363636,777,723,612,742,675,572,223,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 1.5}",1,scan-fish-wave,0.9303977272727273,777,723,612,741,663,561,214,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 1.5}",1,wave-scan-fish,0.9180871212121212,777,723,612,713,661,565,225,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 1.5}",1,wave-fish-scan,0.9256628787878788,777,723,612,720,662,573,220,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 1.5}",1,fish-scan-wave,0.9015151515151515,777,723,612,700,657,547,205,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 1.5}",1,fish-wave-scan,0.9147727272727273,777,723,612,722,659,551,220,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 1.5}",2,official,0.9318181818181818,777,723,612,735,668,565,221,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 1.5}",2,scan-wave-fish,0.9318181818181818,777,723,612,735,668,565,221,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 1.5}",2,scan-fish-wave,0.9237689393939394,777,723,612,734,657,560,209,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 1.5}",2,wave-scan-fish,0.9147727272727273,777,723,612,714,658,560,221,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 1.5}",2,wave-fish-scan,0.9303977272727273,777,723,612,729,660,576,221,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 1.5}",2,fish-scan-wave,0.9024621212121212,777,723,612,712,647,547,197,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_ent"": 1.5}",2,fish-wave-scan,0.9133522727272727,777,723,612,727,652,550,219,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 0.5}",0,official,0.9289772727272727,777,723,612,728,672,562,219,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 0.5}",0,scan-wave-fish,0.9289772727272727,777,723,612,728,672,562,219,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 0.5}",0,scan-fish-wave,0.9228219696969697,777,723,612,728,658,563,216,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 0.5}",0,wave-scan-fish,0.9071969696969697,777,723,612,709,654,553,223,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 0.5}",0,wave-fish-scan,0.9100378787878788,777,723,612,701,656,565,219,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 0.5}",0,fish-scan-wave,0.9076704545454546,777,723,612,706,652,559,207,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 0.5}",0,fish-wave-scan,0.9185606060606061,777,723,612,708,668,564,221,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 0.5}",1,official,0.9318181818181818,777,723,612,736,672,560,217,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 0.5}",1,scan-wave-fish,0.9318181818181818,777,723,612,736,672,560,217,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 0.5}",1,scan-fish-wave,0.9266098484848485,777,723,612,735,665,557,214,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 0.5}",1,wave-scan-fish,0.9128787878787878,777,723,612,710,662,556,223,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 0.5}",1,wave-fish-scan,0.9161931818181818,777,723,612,707,663,565,217,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 0.5}",1,fish-scan-wave,0.9048295454545454,777,723,612,704,659,548,207,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 0.5}",1,fish-wave-scan,0.912405303030303,777,723,612,716,658,553,219,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 0.5}",2,official,0.9360795454545454,777,723,612,740,673,564,218,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 0.5}",2,scan-wave-fish,0.9360795454545454,777,723,612,740,673,564,218,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 0.5}",2,scan-fish-wave,0.9294507575757576,777,723,612,739,657,567,213,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 0.5}",2,wave-scan-fish,0.9090909090909091,777,723,612,706,660,554,218,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 0.5}",2,wave-fish-scan,0.9171401515151515,777,723,612,714,661,562,220,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 0.5}",2,fish-scan-wave,0.9057765151515151,777,723,612,706,660,547,205,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 0.5}",2,fish-wave-scan,0.9161931818181818,777,723,612,720,662,553,220,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 2.0}",0,official,0.9327651515151515,777,723,612,739,670,561,225,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 2.0}",0,scan-wave-fish,0.9327651515151515,777,723,612,739,670,561,225,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 2.0}",0,scan-fish-wave,0.9318181818181818,777,723,612,739,659,570,218,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 2.0}",0,wave-scan-fish,0.9109848484848485,777,723,612,707,654,563,226,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 2.0}",0,wave-fish-scan,0.9142992424242424,777,723,612,710,656,565,223,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 2.0}",0,fish-scan-wave,0.9086174242424242,777,723,612,721,637,561,209,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 2.0}",0,fish-wave-scan,0.9294507575757576,777,723,612,729,668,566,225,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 2.0}",1,official,0.9360795454545454,777,723,612,741,668,568,225,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 2.0}",1,scan-wave-fish,0.9360795454545454,777,723,612,741,668,568,225,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 2.0}",1,scan-fish-wave,0.9180871212121212,777,723,612,740,639,560,209,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 2.0}",1,wave-scan-fish,0.9185606060606061,777,723,612,715,654,571,225,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 2.0}",1,wave-fish-scan,0.9228219696969697,777,723,612,729,655,565,222,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 2.0}",1,fish-scan-wave,0.8977272727272727,777,723,612,711,639,546,204,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 2.0}",1,fish-wave-scan,0.9214015151515151,777,723,612,726,666,554,222,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 2.0}",2,official,0.931344696969697,777,723,612,738,658,571,226,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 2.0}",2,scan-wave-fish,0.931344696969697,777,723,612,738,658,571,226,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 2.0}",2,scan-fish-wave,0.9261363636363636,777,723,612,738,649,569,208,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 2.0}",2,wave-scan-fish,0.9190340909090909,777,723,612,717,652,572,226,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 2.0}",2,wave-fish-scan,0.9237689393939394,777,723,612,724,653,574,223,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 2.0}",2,fish-scan-wave,0.9048295454545454,777,723,612,709,656,546,202,256
+"{""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""w_cons"": 2.0}",2,fish-wave-scan,0.9214015151515151,777,723,612,731,663,552,224,256
+"{""flip"": true, ""mt"": 0.99, ""upscale_flip"": true, ""upscales"": [224]}",0,official,0.9318181818181818,777,723,612,733,667,568,222,256
+"{""flip"": true, ""mt"": 0.99, ""upscale_flip"": true, ""upscales"": [224]}",0,scan-wave-fish,0.9318181818181818,777,723,612,733,667,568,222,256
+"{""flip"": true, ""mt"": 0.99, ""upscale_flip"": true, ""upscales"": [224]}",0,scan-fish-wave,0.928030303030303,777,723,612,732,660,568,218,256
+"{""flip"": true, ""mt"": 0.99, ""upscale_flip"": true, ""upscales"": [224]}",0,wave-scan-fish,0.9105113636363636,777,723,612,717,649,557,229,256
+"{""flip"": true, ""mt"": 0.99, ""upscale_flip"": true, ""upscales"": [224]}",0,wave-fish-scan,0.9166666666666666,777,723,612,716,651,569,221,256
+"{""flip"": true, ""mt"": 0.99, ""upscale_flip"": true, ""upscales"": [224]}",0,fish-scan-wave,0.9119318181818182,777,723,612,718,646,562,212,256
+"{""flip"": true, ""mt"": 0.99, ""upscale_flip"": true, ""upscales"": [224]}",0,fish-wave-scan,0.9294507575757576,777,723,612,729,667,567,221,256
+"{""flip"": true, ""mt"": 0.99, ""upscale_flip"": true, ""upscales"": [224]}",1,official,0.9389204545454546,777,723,612,741,672,570,223,256
+"{""flip"": true, ""mt"": 0.99, ""upscale_flip"": true, ""upscales"": [224]}",1,scan-wave-fish,0.9389204545454546,777,723,612,741,672,570,223,256
+"{""flip"": true, ""mt"": 0.99, ""upscale_flip"": true, ""upscales"": [224]}",1,scan-fish-wave,0.9247159090909091,777,723,612,740,653,560,212,256
+"{""flip"": true, ""mt"": 0.99, ""upscale_flip"": true, ""upscales"": [224]}",1,wave-scan-fish,0.9152462121212122,777,723,612,716,652,565,226,256
+"{""flip"": true, ""mt"": 0.99, ""upscale_flip"": true, ""upscales"": [224]}",1,wave-fish-scan,0.9195075757575758,777,723,612,723,653,566,220,256
+"{""flip"": true, ""mt"": 0.99, ""upscale_flip"": true, ""upscales"": [224]}",1,fish-scan-wave,0.9034090909090909,777,723,612,705,655,548,206,256
+"{""flip"": true, ""mt"": 0.99, ""upscale_flip"": true, ""upscales"": [224]}",1,fish-wave-scan,0.9119318181818182,777,723,612,722,651,553,220,256
+"{""flip"": true, ""mt"": 0.99, ""upscale_flip"": true, ""upscales"": [224]}",2,official,0.9270833333333334,777,723,612,737,666,555,218,256
+"{""flip"": true, ""mt"": 0.99, ""upscale_flip"": true, ""upscales"": [224]}",2,scan-wave-fish,0.9270833333333334,777,723,612,737,666,555,218,256
+"{""flip"": true, ""mt"": 0.99, ""upscale_flip"": true, ""upscales"": [224]}",2,scan-fish-wave,0.9251893939393939,777,723,612,736,653,565,210,256
+"{""flip"": true, ""mt"": 0.99, ""upscale_flip"": true, ""upscales"": [224]}",2,wave-scan-fish,0.9195075757575758,777,723,612,713,661,568,223,256
+"{""flip"": true, ""mt"": 0.99, ""upscale_flip"": true, ""upscales"": [224]}",2,wave-fish-scan,0.9303977272727273,777,723,612,728,662,575,223,256
+"{""flip"": true, ""mt"": 0.99, ""upscale_flip"": true, ""upscales"": [224]}",2,fish-scan-wave,0.9076704545454546,777,723,612,715,655,547,208,256
+"{""flip"": true, ""mt"": 0.99, ""upscale_flip"": true, ""upscales"": [224]}",2,fish-wave-scan,0.9214015151515151,777,723,612,731,663,552,221,256
+"{""flip"": true, ""mt"": 0.995, ""upscale_flip"": true, ""upscales"": [224]}",0,official,0.9327651515151515,777,723,612,733,669,568,223,256
+"{""flip"": true, ""mt"": 0.995, ""upscale_flip"": true, ""upscales"": [224]}",0,scan-wave-fish,0.9327651515151515,777,723,612,733,669,568,223,256
+"{""flip"": true, ""mt"": 0.995, ""upscale_flip"": true, ""upscales"": [224]}",0,scan-fish-wave,0.928030303030303,777,723,612,732,662,566,217,256
+"{""flip"": true, ""mt"": 0.995, ""upscale_flip"": true, ""upscales"": [224]}",0,wave-scan-fish,0.9114583333333334,777,723,612,717,649,559,229,256
+"{""flip"": true, ""mt"": 0.995, ""upscale_flip"": true, ""upscales"": [224]}",0,wave-fish-scan,0.9176136363636364,777,723,612,718,651,569,221,256
+"{""flip"": true, ""mt"": 0.995, ""upscale_flip"": true, ""upscales"": [224]}",0,fish-scan-wave,0.9114583333333334,777,723,612,714,650,561,210,256
+"{""flip"": true, ""mt"": 0.995, ""upscale_flip"": true, ""upscales"": [224]}",0,fish-wave-scan,0.9256628787878788,777,723,612,723,666,566,222,256
+"{""flip"": true, ""mt"": 0.995, ""upscale_flip"": true, ""upscales"": [224]}",1,official,0.9408143939393939,777,723,612,741,673,573,222,256
+"{""flip"": true, ""mt"": 0.995, ""upscale_flip"": true, ""upscales"": [224]}",1,scan-wave-fish,0.9408143939393939,777,723,612,741,673,573,222,256
+"{""flip"": true, ""mt"": 0.995, ""upscale_flip"": true, ""upscales"": [224]}",1,scan-fish-wave,0.9256628787878788,777,723,612,740,652,563,212,256
+"{""flip"": true, ""mt"": 0.995, ""upscale_flip"": true, ""upscales"": [224]}",1,wave-scan-fish,0.915719696969697,777,723,612,717,653,564,226,256
+"{""flip"": true, ""mt"": 0.995, ""upscale_flip"": true, ""upscales"": [224]}",1,wave-fish-scan,0.9209280303030303,777,723,612,725,654,566,220,256
+"{""flip"": true, ""mt"": 0.995, ""upscale_flip"": true, ""upscales"": [224]}",1,fish-scan-wave,0.90625,777,723,612,707,659,548,207,256
+"{""flip"": true, ""mt"": 0.995, ""upscale_flip"": true, ""upscales"": [224]}",1,fish-wave-scan,0.912405303030303,777,723,612,719,655,553,221,256
+"{""flip"": true, ""mt"": 0.995, ""upscale_flip"": true, ""upscales"": [224]}",2,official,0.9299242424242424,777,723,612,737,667,560,218,256
+"{""flip"": true, ""mt"": 0.995, ""upscale_flip"": true, ""upscales"": [224]}",2,scan-wave-fish,0.9299242424242424,777,723,612,737,667,560,218,256
+"{""flip"": true, ""mt"": 0.995, ""upscale_flip"": true, ""upscales"": [224]}",2,scan-fish-wave,0.9247159090909091,777,723,612,736,654,563,209,256
+"{""flip"": true, ""mt"": 0.995, ""upscale_flip"": true, ""upscales"": [224]}",2,wave-scan-fish,0.9176136363636364,777,723,612,710,661,567,222,256
+"{""flip"": true, ""mt"": 0.995, ""upscale_flip"": true, ""upscales"": [224]}",2,wave-fish-scan,0.9256628787878788,777,723,612,726,662,567,223,256
+"{""flip"": true, ""mt"": 0.995, ""upscale_flip"": true, ""upscales"": [224]}",2,fish-scan-wave,0.9071969696969697,777,723,612,713,656,547,207,256
+"{""flip"": true, ""mt"": 0.995, ""upscale_flip"": true, ""upscales"": [224]}",2,fish-wave-scan,0.9204545454545454,777,723,612,730,662,552,220,256
+"{""flip"": true, ""t3a_k"": 20, ""upscale_flip"": true, ""upscales"": [224]}",0,official,0.9365530303030303,777,723,612,739,669,570,222,256
+"{""flip"": true, ""t3a_k"": 20, ""upscale_flip"": true, ""upscales"": [224]}",0,scan-wave-fish,0.9365530303030303,777,723,612,739,669,570,222,256
+"{""flip"": true, ""t3a_k"": 20, ""upscale_flip"": true, ""upscales"": [224]}",0,scan-fish-wave,0.9285037878787878,777,723,612,738,658,565,215,256
+"{""flip"": true, ""t3a_k"": 20, ""upscale_flip"": true, ""upscales"": [224]}",0,wave-scan-fish,0.9053030303030303,777,723,612,709,646,557,224,256
+"{""flip"": true, ""t3a_k"": 20, ""upscale_flip"": true, ""upscales"": [224]}",0,wave-fish-scan,0.9161931818181818,777,723,612,716,648,571,221,256
+"{""flip"": true, ""t3a_k"": 20, ""upscale_flip"": true, ""upscales"": [224]}",0,fish-scan-wave,0.9133522727272727,777,723,612,716,651,562,210,256
+"{""flip"": true, ""t3a_k"": 20, ""upscale_flip"": true, ""upscales"": [224]}",0,fish-wave-scan,0.9251893939393939,777,723,612,719,668,567,220,256
+"{""flip"": true, ""t3a_k"": 20, ""upscale_flip"": true, ""upscales"": [224]}",1,official,0.9412878787878788,777,723,612,743,674,571,224,256
+"{""flip"": true, ""t3a_k"": 20, ""upscale_flip"": true, ""upscales"": [224]}",1,scan-wave-fish,0.9412878787878788,777,723,612,743,674,571,224,256
+"{""flip"": true, ""t3a_k"": 20, ""upscale_flip"": true, ""upscales"": [224]}",1,scan-fish-wave,0.9275568181818182,777,723,612,742,657,560,211,256
+"{""flip"": true, ""t3a_k"": 20, ""upscale_flip"": true, ""upscales"": [224]}",1,wave-scan-fish,0.9105113636363636,777,723,612,713,650,560,226,256
+"{""flip"": true, ""t3a_k"": 20, ""upscale_flip"": true, ""upscales"": [224]}",1,wave-fish-scan,0.9166666666666666,777,723,612,719,651,566,219,256
+"{""flip"": true, ""t3a_k"": 20, ""upscale_flip"": true, ""upscales"": [224]}",1,fish-scan-wave,0.9076704545454546,777,723,612,712,657,548,206,256
+"{""flip"": true, ""t3a_k"": 20, ""upscale_flip"": true, ""upscales"": [224]}",1,fish-wave-scan,0.9171401515151515,777,723,612,717,667,553,219,256
+"{""flip"": true, ""t3a_k"": 20, ""upscale_flip"": true, ""upscales"": [224]}",2,official,0.928030303030303,777,723,612,736,665,559,219,256
+"{""flip"": true, ""t3a_k"": 20, ""upscale_flip"": true, ""upscales"": [224]}",2,scan-wave-fish,0.928030303030303,777,723,612,736,665,559,219,256
+"{""flip"": true, ""t3a_k"": 20, ""upscale_flip"": true, ""upscales"": [224]}",2,scan-fish-wave,0.9256628787878788,777,723,612,735,658,562,210,256
+"{""flip"": true, ""t3a_k"": 20, ""upscale_flip"": true, ""upscales"": [224]}",2,wave-scan-fish,0.9161931818181818,777,723,612,710,660,565,222,256
+"{""flip"": true, ""t3a_k"": 20, ""upscale_flip"": true, ""upscales"": [224]}",2,wave-fish-scan,0.9223484848484849,777,723,612,719,661,568,223,256
+"{""flip"": true, ""t3a_k"": 20, ""upscale_flip"": true, ""upscales"": [224]}",2,fish-scan-wave,0.9071969696969697,777,723,612,711,656,549,208,256
+"{""flip"": true, ""t3a_k"": 20, ""upscale_flip"": true, ""upscales"": [224]}",2,fish-wave-scan,0.9185606060606061,777,723,612,725,661,554,218,256
+"{""flip"": true, ""t3a_k"": 100, ""upscale_flip"": true, ""upscales"": [224]}",0,official,0.9337121212121212,777,723,612,732,670,570,223,256
+"{""flip"": true, ""t3a_k"": 100, ""upscale_flip"": true, ""upscales"": [224]}",0,scan-wave-fish,0.9337121212121212,777,723,612,732,670,570,223,256
+"{""flip"": true, ""t3a_k"": 100, ""upscale_flip"": true, ""upscales"": [224]}",0,scan-fish-wave,0.9242424242424242,777,723,612,731,654,567,216,256
+"{""flip"": true, ""t3a_k"": 100, ""upscale_flip"": true, ""upscales"": [224]}",0,wave-scan-fish,0.9090909090909091,777,723,612,713,650,557,225,256
+"{""flip"": true, ""t3a_k"": 100, ""upscale_flip"": true, ""upscales"": [224]}",0,wave-fish-scan,0.9180871212121212,777,723,612,716,652,571,221,256
+"{""flip"": true, ""t3a_k"": 100, ""upscale_flip"": true, ""upscales"": [224]}",0,fish-scan-wave,0.9142992424242424,777,723,612,715,654,562,214,256
+"{""flip"": true, ""t3a_k"": 100, ""upscale_flip"": true, ""upscales"": [224]}",0,fish-wave-scan,0.9266098484848485,777,723,612,722,668,567,222,256
+"{""flip"": true, ""t3a_k"": 100, ""upscale_flip"": true, ""upscales"": [224]}",1,official,0.9379734848484849,777,723,612,741,672,568,222,256
+"{""flip"": true, ""t3a_k"": 100, ""upscale_flip"": true, ""upscales"": [224]}",1,scan-wave-fish,0.9379734848484849,777,723,612,741,672,568,222,256
+"{""flip"": true, ""t3a_k"": 100, ""upscale_flip"": true, ""upscales"": [224]}",1,scan-fish-wave,0.9251893939393939,777,723,612,740,654,560,211,256
+"{""flip"": true, ""t3a_k"": 100, ""upscale_flip"": true, ""upscales"": [224]}",1,wave-scan-fish,0.912405303030303,777,723,612,713,653,561,226,256
+"{""flip"": true, ""t3a_k"": 100, ""upscale_flip"": true, ""upscales"": [224]}",1,wave-fish-scan,0.9204545454545454,777,723,612,723,654,567,220,256
+"{""flip"": true, ""t3a_k"": 100, ""upscale_flip"": true, ""upscales"": [224]}",1,fish-scan-wave,0.9043560606060606,777,723,612,707,655,548,208,256
+"{""flip"": true, ""t3a_k"": 100, ""upscale_flip"": true, ""upscales"": [224]}",1,fish-wave-scan,0.9119318181818182,777,723,612,720,653,553,221,256
+"{""flip"": true, ""t3a_k"": 100, ""upscale_flip"": true, ""upscales"": [224]}",2,official,0.9308712121212122,777,723,612,737,667,562,221,256
+"{""flip"": true, ""t3a_k"": 100, ""upscale_flip"": true, ""upscales"": [224]}",2,scan-wave-fish,0.9308712121212122,777,723,612,737,667,562,221,256
+"{""flip"": true, ""t3a_k"": 100, ""upscale_flip"": true, ""upscales"": [224]}",2,scan-fish-wave,0.9251893939393939,777,723,612,736,656,562,209,256
+"{""flip"": true, ""t3a_k"": 100, ""upscale_flip"": true, ""upscales"": [224]}",2,wave-scan-fish,0.9171401515151515,777,723,612,707,661,569,223,256
+"{""flip"": true, ""t3a_k"": 100, ""upscale_flip"": true, ""upscales"": [224]}",2,wave-fish-scan,0.9266098484848485,777,723,612,721,662,574,223,256
+"{""flip"": true, ""t3a_k"": 100, ""upscale_flip"": true, ""upscales"": [224]}",2,fish-scan-wave,0.9067234848484849,777,723,612,709,659,547,208,256
+"{""flip"": true, ""t3a_k"": 100, ""upscale_flip"": true, ""upscales"": [224]}",2,fish-wave-scan,0.9199810606060606,777,723,612,729,662,552,219,256
+"{""flip"": true, ""t3a_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",0,official,0.9289772727272727,777,723,612,723,672,567,224,256
+"{""flip"": true, ""t3a_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",0,scan-wave-fish,0.9289772727272727,777,723,612,723,672,567,224,256
+"{""flip"": true, ""t3a_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",0,scan-fish-wave,0.9209280303030303,777,723,612,722,657,566,219,256
+"{""flip"": true, ""t3a_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",0,wave-scan-fish,0.8939393939393939,777,723,612,706,635,547,214,256
+"{""flip"": true, ""t3a_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",0,wave-fish-scan,0.90625,777,723,612,713,636,565,219,256
+"{""flip"": true, ""t3a_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",0,fish-scan-wave,0.9038825757575758,777,723,612,705,651,553,210,256
+"{""flip"": true, ""t3a_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",0,fish-wave-scan,0.9152462121212122,777,723,612,712,663,558,218,256
+"{""flip"": true, ""t3a_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",1,official,0.9327651515151515,777,723,612,736,669,565,220,256
+"{""flip"": true, ""t3a_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",1,scan-wave-fish,0.9327651515151515,777,723,612,736,669,565,220,256
+"{""flip"": true, ""t3a_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",1,scan-fish-wave,0.9199810606060606,777,723,612,735,653,555,207,256
+"{""flip"": true, ""t3a_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",1,wave-scan-fish,0.9057765151515151,777,723,612,710,647,556,222,256
+"{""flip"": true, ""t3a_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",1,wave-fish-scan,0.9133522727272727,777,723,612,718,651,560,217,256
+"{""flip"": true, ""t3a_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",1,fish-scan-wave,0.896780303030303,777,723,612,701,648,545,205,256
+"{""flip"": true, ""t3a_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",1,fish-wave-scan,0.9086174242424242,777,723,612,712,658,549,218,256
+"{""flip"": true, ""t3a_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",2,official,0.9266098484848485,777,723,612,735,667,555,223,256
+"{""flip"": true, ""t3a_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",2,scan-wave-fish,0.9266098484848485,777,723,612,735,667,555,223,256
+"{""flip"": true, ""t3a_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",2,scan-fish-wave,0.9199810606060606,777,723,612,734,656,553,205,256
+"{""flip"": true, ""t3a_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",2,wave-scan-fish,0.9010416666666666,777,723,612,701,652,550,211,256
+"{""flip"": true, ""t3a_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",2,wave-fish-scan,0.9176136363636364,777,723,612,717,656,565,222,256
+"{""flip"": true, ""t3a_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",2,fish-scan-wave,0.8986742424242424,777,723,612,705,651,542,205,256
+"{""flip"": true, ""t3a_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",2,fish-wave-scan,0.9090909090909091,777,723,612,717,658,545,220,256
+"{""flip"": true, ""lame_k"": 3, ""upscale_flip"": true, ""upscales"": [224]}",0,official,0.9195075757575758,777,723,612,721,656,565,217,256
+"{""flip"": true, ""lame_k"": 3, ""upscale_flip"": true, ""upscales"": [224]}",0,scan-wave-fish,0.9195075757575758,777,723,612,721,656,565,217,256
+"{""flip"": true, ""lame_k"": 3, ""upscale_flip"": true, ""upscales"": [224]}",0,scan-fish-wave,0.9142992424242424,777,723,612,722,646,563,212,256
+"{""flip"": true, ""lame_k"": 3, ""upscale_flip"": true, ""upscales"": [224]}",0,wave-scan-fish,0.8963068181818182,777,723,612,697,641,555,218,256
+"{""flip"": true, ""lame_k"": 3, ""upscale_flip"": true, ""upscales"": [224]}",0,wave-fish-scan,0.9114583333333334,777,723,612,712,645,568,219,256
+"{""flip"": true, ""lame_k"": 3, ""upscale_flip"": true, ""upscales"": [224]}",0,fish-scan-wave,0.8953598484848485,777,723,612,702,637,552,202,256
+"{""flip"": true, ""lame_k"": 3, ""upscale_flip"": true, ""upscales"": [224]}",0,fish-wave-scan,0.9109848484848485,777,723,612,714,654,556,218,256
+"{""flip"": true, ""lame_k"": 3, ""upscale_flip"": true, ""upscales"": [224]}",1,official,0.9247159090909091,777,723,612,734,656,563,216,256
+"{""flip"": true, ""lame_k"": 3, ""upscale_flip"": true, ""upscales"": [224]}",1,scan-wave-fish,0.9247159090909091,777,723,612,734,656,563,216,256
+"{""flip"": true, ""lame_k"": 3, ""upscale_flip"": true, ""upscales"": [224]}",1,scan-fish-wave,0.915719696969697,777,723,612,735,646,553,205,256
+"{""flip"": true, ""lame_k"": 3, ""upscale_flip"": true, ""upscales"": [224]}",1,wave-scan-fish,0.8986742424242424,777,723,612,701,644,553,213,256
+"{""flip"": true, ""lame_k"": 3, ""upscale_flip"": true, ""upscales"": [224]}",1,wave-fish-scan,0.9119318181818182,777,723,612,714,648,564,219,256
+"{""flip"": true, ""lame_k"": 3, ""upscale_flip"": true, ""upscales"": [224]}",1,fish-scan-wave,0.8939393939393939,777,723,612,700,644,544,198,256
+"{""flip"": true, ""lame_k"": 3, ""upscale_flip"": true, ""upscales"": [224]}",1,fish-wave-scan,0.9005681818181818,777,723,612,709,643,550,215,256
+"{""flip"": true, ""lame_k"": 3, ""upscale_flip"": true, ""upscales"": [224]}",2,official,0.9185606060606061,777,723,612,736,650,554,213,256
+"{""flip"": true, ""lame_k"": 3, ""upscale_flip"": true, ""upscales"": [224]}",2,scan-wave-fish,0.9185606060606061,777,723,612,736,650,554,213,256
+"{""flip"": true, ""lame_k"": 3, ""upscale_flip"": true, ""upscales"": [224]}",2,scan-fish-wave,0.9185606060606061,777,723,612,737,645,558,205,256
+"{""flip"": true, ""lame_k"": 3, ""upscale_flip"": true, ""upscales"": [224]}",2,wave-scan-fish,0.8986742424242424,777,723,612,687,653,558,211,256
+"{""flip"": true, ""lame_k"": 3, ""upscale_flip"": true, ""upscales"": [224]}",2,wave-fish-scan,0.9161931818181818,777,723,612,715,657,563,219,256
+"{""flip"": true, ""lame_k"": 3, ""upscale_flip"": true, ""upscales"": [224]}",2,fish-scan-wave,0.8986742424242424,777,723,612,712,640,546,199,256
+"{""flip"": true, ""lame_k"": 3, ""upscale_flip"": true, ""upscales"": [224]}",2,fish-wave-scan,0.9109848484848485,777,723,612,723,652,549,217,256
+"{""flip"": true, ""lame_k"": 8, ""upscale_flip"": true, ""upscales"": [224]}",0,official,0.9270833333333334,777,723,612,711,680,567,230,256
+"{""flip"": true, ""lame_k"": 8, ""upscale_flip"": true, ""upscales"": [224]}",0,scan-wave-fish,0.9270833333333334,777,723,612,711,680,567,230,256
+"{""flip"": true, ""lame_k"": 8, ""upscale_flip"": true, ""upscales"": [224]}",0,scan-fish-wave,0.9180871212121212,777,723,612,711,662,566,220,256
+"{""flip"": true, ""lame_k"": 8, ""upscale_flip"": true, ""upscales"": [224]}",0,wave-scan-fish,0.9119318181818182,777,723,612,713,661,552,220,256
+"{""flip"": true, ""lame_k"": 8, ""upscale_flip"": true, ""upscales"": [224]}",0,wave-fish-scan,0.9138257575757576,777,723,612,698,662,570,217,256
+"{""flip"": true, ""lame_k"": 8, ""upscale_flip"": true, ""upscales"": [224]}",0,fish-scan-wave,0.9138257575757576,777,723,612,714,658,558,211,256
+"{""flip"": true, ""lame_k"": 8, ""upscale_flip"": true, ""upscales"": [224]}",0,fish-wave-scan,0.9147727272727273,777,723,612,705,662,565,212,256
+"{""flip"": true, ""lame_k"": 8, ""upscale_flip"": true, ""upscales"": [224]}",1,official,0.9327651515151515,777,723,612,733,674,563,222,256
+"{""flip"": true, ""lame_k"": 8, ""upscale_flip"": true, ""upscales"": [224]}",1,scan-wave-fish,0.9327651515151515,777,723,612,733,674,563,222,256
+"{""flip"": true, ""lame_k"": 8, ""upscale_flip"": true, ""upscales"": [224]}",1,scan-fish-wave,0.9242424242424242,777,723,612,733,658,561,218,256
+"{""flip"": true, ""lame_k"": 8, ""upscale_flip"": true, ""upscales"": [224]}",1,wave-scan-fish,0.9071969696969697,777,723,612,707,651,558,224,256
+"{""flip"": true, ""lame_k"": 8, ""upscale_flip"": true, ""upscales"": [224]}",1,wave-fish-scan,0.9190340909090909,777,723,612,723,654,564,218,256
+"{""flip"": true, ""lame_k"": 8, ""upscale_flip"": true, ""upscales"": [224]}",1,fish-scan-wave,0.9114583333333334,777,723,612,717,664,544,212,256
+"{""flip"": true, ""lame_k"": 8, ""upscale_flip"": true, ""upscales"": [224]}",1,fish-wave-scan,0.9105113636363636,777,723,612,722,653,548,221,256
+"{""flip"": true, ""lame_k"": 8, ""upscale_flip"": true, ""upscales"": [224]}",2,official,0.9356060606060606,777,723,612,735,675,566,222,256
+"{""flip"": true, ""lame_k"": 8, ""upscale_flip"": true, ""upscales"": [224]}",2,scan-wave-fish,0.9356060606060606,777,723,612,735,675,566,222,256
+"{""flip"": true, ""lame_k"": 8, ""upscale_flip"": true, ""upscales"": [224]}",2,scan-fish-wave,0.9289772727272727,777,723,612,735,663,564,215,256
+"{""flip"": true, ""lame_k"": 8, ""upscale_flip"": true, ""upscales"": [224]}",2,wave-scan-fish,0.9171401515151515,777,723,612,712,663,562,228,256
+"{""flip"": true, ""lame_k"": 8, ""upscale_flip"": true, ""upscales"": [224]}",2,wave-fish-scan,0.9161931818181818,777,723,612,696,664,575,219,256
+"{""flip"": true, ""lame_k"": 8, ""upscale_flip"": true, ""upscales"": [224]}",2,fish-scan-wave,0.9114583333333334,777,723,612,719,661,545,209,256
+"{""flip"": true, ""lame_k"": 8, ""upscale_flip"": true, ""upscales"": [224]}",2,fish-wave-scan,0.9204545454545454,777,723,612,728,666,550,217,256
+"{""flip"": true, ""lame_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",0,official,0.8929924242424242,777,723,612,702,630,554,207,256
+"{""flip"": true, ""lame_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",0,scan-wave-fish,0.8929924242424242,777,723,612,702,630,554,207,256
+"{""flip"": true, ""lame_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",0,scan-fish-wave,0.8944128787878788,777,723,612,703,635,551,208,256
+"{""flip"": true, ""lame_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",0,wave-scan-fish,0.8745265151515151,777,723,612,677,627,543,206,256
+"{""flip"": true, ""lame_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",0,wave-fish-scan,0.8887310606060606,777,723,612,685,632,560,217,256
+"{""flip"": true, ""lame_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",0,fish-scan-wave,0.8726325757575758,777,723,612,682,622,539,196,256
+"{""flip"": true, ""lame_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",0,fish-wave-scan,0.8839962121212122,777,723,612,689,636,542,206,256
+"{""flip"": true, ""lame_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",1,official,0.9029356060606061,777,723,612,719,634,554,211,256
+"{""flip"": true, ""lame_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",1,scan-wave-fish,0.9029356060606061,777,723,612,719,634,554,211,256
+"{""flip"": true, ""lame_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",1,scan-fish-wave,0.896780303030303,777,723,612,720,629,545,202,256
+"{""flip"": true, ""lame_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",1,wave-scan-fish,0.8816287878787878,777,723,612,681,636,545,205,256
+"{""flip"": true, ""lame_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",1,wave-fish-scan,0.8929924242424242,777,723,612,691,639,556,216,256
+"{""flip"": true, ""lame_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",1,fish-scan-wave,0.8778409090909091,777,723,612,689,630,535,196,256
+"{""flip"": true, ""lame_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",1,fish-wave-scan,0.8816287878787878,777,723,612,690,630,542,203,256
+"{""flip"": true, ""lame_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",2,official,0.8953598484848485,777,723,612,721,623,547,206,256
+"{""flip"": true, ""lame_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",2,scan-wave-fish,0.8953598484848485,777,723,612,721,623,547,206,256
+"{""flip"": true, ""lame_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",2,scan-fish-wave,0.8982007575757576,777,723,612,722,628,547,199,256
+"{""flip"": true, ""lame_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",2,wave-scan-fish,0.8759469696969697,777,723,612,670,638,542,201,256
+"{""flip"": true, ""lame_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",2,wave-fish-scan,0.8963068181818182,777,723,612,695,641,557,214,256
+"{""flip"": true, ""lame_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",2,fish-scan-wave,0.8754734848484849,777,723,612,694,620,535,194,256
+"{""flip"": true, ""lame_k"": null, ""upscale_flip"": true, ""upscales"": [224]}",2,fish-wave-scan,0.8854166666666666,777,723,612,698,632,540,208,256
+"{""alpha_max"": 0.3, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,official,0.9275568181818182,777,723,612,729,667,563,222,256
+"{""alpha_max"": 0.3, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,scan-wave-fish,0.9275568181818182,777,723,612,729,667,563,222,256
+"{""alpha_max"": 0.3, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,scan-fish-wave,0.9247159090909091,777,723,612,728,665,560,219,256
+"{""alpha_max"": 0.3, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,wave-scan-fish,0.9043560606060606,777,723,612,706,651,553,223,256
+"{""alpha_max"": 0.3, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,wave-fish-scan,0.9109848484848485,777,723,612,702,652,570,220,256
+"{""alpha_max"": 0.3, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,fish-scan-wave,0.9048295454545454,777,723,612,706,649,556,205,256
+"{""alpha_max"": 0.3, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,fish-wave-scan,0.9176136363636364,777,723,612,710,664,564,223,256
+"{""alpha_max"": 0.3, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,official,0.9356060606060606,777,723,612,737,667,572,228,256
+"{""alpha_max"": 0.3, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,scan-wave-fish,0.9356060606060606,777,723,612,737,667,572,228,256
+"{""alpha_max"": 0.3, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,scan-fish-wave,0.9237689393939394,777,723,612,736,657,558,214,256
+"{""alpha_max"": 0.3, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,wave-scan-fish,0.9138257575757576,777,723,612,717,653,560,224,256
+"{""alpha_max"": 0.3, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,wave-fish-scan,0.9166666666666666,777,723,612,714,654,568,220,256
+"{""alpha_max"": 0.3, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,fish-scan-wave,0.9057765151515151,777,723,612,704,654,555,207,256
+"{""alpha_max"": 0.3, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,fish-wave-scan,0.9180871212121212,777,723,612,713,665,561,221,256
+"{""alpha_max"": 0.3, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,official,0.9337121212121212,777,723,612,739,669,564,221,256
+"{""alpha_max"": 0.3, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,scan-wave-fish,0.9337121212121212,777,723,612,739,669,564,221,256
+"{""alpha_max"": 0.3, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,scan-fish-wave,0.9251893939393939,777,723,612,738,656,560,211,256
+"{""alpha_max"": 0.3, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,wave-scan-fish,0.915719696969697,777,723,612,710,661,563,222,256
+"{""alpha_max"": 0.3, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,wave-fish-scan,0.9251893939393939,777,723,612,716,662,576,220,256
+"{""alpha_max"": 0.3, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,fish-scan-wave,0.9029356060606061,777,723,612,696,659,552,197,256
+"{""alpha_max"": 0.3, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,fish-wave-scan,0.915719696969697,777,723,612,711,667,556,218,256
+"{""alpha_max"": 0.8, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,official,0.928030303030303,777,723,612,722,673,565,219,256
+"{""alpha_max"": 0.8, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,scan-wave-fish,0.928030303030303,777,723,612,722,673,565,219,256
+"{""alpha_max"": 0.8, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,scan-fish-wave,0.9204545454545454,777,723,612,723,662,559,211,256
+"{""alpha_max"": 0.8, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,wave-scan-fish,0.912405303030303,777,723,612,716,650,561,222,256
+"{""alpha_max"": 0.8, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,wave-fish-scan,0.9152462121212122,777,723,612,713,652,568,225,256
+"{""alpha_max"": 0.8, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,fish-scan-wave,0.9105113636363636,777,723,612,714,647,562,206,256
+"{""alpha_max"": 0.8, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,fish-wave-scan,0.9289772727272727,777,723,612,730,665,567,222,256
+"{""alpha_max"": 0.8, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,official,0.9346590909090909,777,723,612,736,676,562,220,256
+"{""alpha_max"": 0.8, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,scan-wave-fish,0.9346590909090909,777,723,612,736,676,562,220,256
+"{""alpha_max"": 0.8, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,scan-fish-wave,0.9285037878787878,777,723,612,736,664,561,208,256
+"{""alpha_max"": 0.8, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,wave-scan-fish,0.9152462121212122,777,723,612,715,653,565,227,256
+"{""alpha_max"": 0.8, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,wave-fish-scan,0.9232954545454546,777,723,612,731,654,565,220,256
+"{""alpha_max"": 0.8, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,fish-scan-wave,0.9034090909090909,777,723,612,707,653,548,205,256
+"{""alpha_max"": 0.8, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,fish-wave-scan,0.912405303030303,777,723,612,721,653,553,218,256
+"{""alpha_max"": 0.8, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,official,0.9294507575757576,777,723,612,741,662,560,212,256
+"{""alpha_max"": 0.8, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,scan-wave-fish,0.9294507575757576,777,723,612,741,662,560,212,256
+"{""alpha_max"": 0.8, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,scan-fish-wave,0.9266098484848485,777,723,612,740,658,559,206,256
+"{""alpha_max"": 0.8, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,wave-scan-fish,0.9161931818181818,777,723,612,711,661,563,221,256
+"{""alpha_max"": 0.8, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,wave-fish-scan,0.9318181818181818,777,723,612,730,662,576,222,256
+"{""alpha_max"": 0.8, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,fish-scan-wave,0.90625,777,723,612,715,652,547,207,256
+"{""alpha_max"": 0.8, ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,fish-wave-scan,0.9209280303030303,777,723,612,730,663,552,217,256
+"{""flip"": true, ""gain"": 0.5, ""upscale_flip"": true, ""upscales"": [224]}",0,official,0.9261363636363636,777,723,612,735,654,567,220,256
+"{""flip"": true, ""gain"": 0.5, ""upscale_flip"": true, ""upscales"": [224]}",0,scan-wave-fish,0.9261363636363636,777,723,612,735,654,567,220,256
+"{""flip"": true, ""gain"": 0.5, ""upscale_flip"": true, ""upscales"": [224]}",0,scan-fish-wave,0.9327651515151515,777,723,612,735,662,573,221,256
+"{""flip"": true, ""gain"": 0.5, ""upscale_flip"": true, ""upscales"": [224]}",0,wave-scan-fish,0.9133522727272727,777,723,612,701,659,569,223,256
+"{""flip"": true, ""gain"": 0.5, ""upscale_flip"": true, ""upscales"": [224]}",0,wave-fish-scan,0.915719696969697,777,723,612,700,660,574,222,256
+"{""flip"": true, ""gain"": 0.5, ""upscale_flip"": true, ""upscales"": [224]}",0,fish-scan-wave,0.9166666666666666,777,723,612,704,660,572,201,256
+"{""flip"": true, ""gain"": 0.5, ""upscale_flip"": true, ""upscales"": [224]}",0,fish-wave-scan,0.9289772727272727,777,723,612,723,665,574,222,256
+"{""flip"": true, ""gain"": 0.5, ""upscale_flip"": true, ""upscales"": [224]}",1,official,0.9389204545454546,777,723,612,739,670,574,224,256
+"{""flip"": true, ""gain"": 0.5, ""upscale_flip"": true, ""upscales"": [224]}",1,scan-wave-fish,0.9389204545454546,777,723,612,739,670,574,224,256
+"{""flip"": true, ""gain"": 0.5, ""upscale_flip"": true, ""upscales"": [224]}",1,scan-fish-wave,0.931344696969697,777,723,612,738,662,567,214,256
+"{""flip"": true, ""gain"": 0.5, ""upscale_flip"": true, ""upscales"": [224]}",1,wave-scan-fish,0.9147727272727273,777,723,612,707,648,577,227,256
+"{""flip"": true, ""gain"": 0.5, ""upscale_flip"": true, ""upscales"": [224]}",1,wave-fish-scan,0.9185606060606061,777,723,612,720,649,571,222,256
+"{""flip"": true, ""gain"": 0.5, ""upscale_flip"": true, ""upscales"": [224]}",1,fish-scan-wave,0.9100378787878788,777,723,612,705,652,565,200,256
+"{""flip"": true, ""gain"": 0.5, ""upscale_flip"": true, ""upscales"": [224]}",1,fish-wave-scan,0.9237689393939394,777,723,612,725,660,566,220,256
+"{""flip"": true, ""gain"": 0.5, ""upscale_flip"": true, ""upscales"": [224]}",2,official,0.9303977272727273,777,723,612,739,656,570,215,256
+"{""flip"": true, ""gain"": 0.5, ""upscale_flip"": true, ""upscales"": [224]}",2,scan-wave-fish,0.9303977272727273,777,723,612,739,656,570,215,256
+"{""flip"": true, ""gain"": 0.5, ""upscale_flip"": true, ""upscales"": [224]}",2,scan-fish-wave,0.9337121212121212,777,723,612,738,662,572,215,256
+"{""flip"": true, ""gain"": 0.5, ""upscale_flip"": true, ""upscales"": [224]}",2,wave-scan-fish,0.9090909090909091,777,723,612,692,657,571,220,256
+"{""flip"": true, ""gain"": 0.5, ""upscale_flip"": true, ""upscales"": [224]}",2,wave-fish-scan,0.9270833333333334,777,723,612,720,658,580,224,256
+"{""flip"": true, ""gain"": 0.5, ""upscale_flip"": true, ""upscales"": [224]}",2,fish-scan-wave,0.9128787878787878,777,723,612,703,661,564,198,256
+"{""flip"": true, ""gain"": 0.5, ""upscale_flip"": true, ""upscales"": [224]}",2,fish-wave-scan,0.9237689393939394,777,723,612,729,657,565,219,256
+"{""flip"": true, ""gain"": 2.0, ""upscale_flip"": true, ""upscales"": [224]}",0,official,0.921875,777,723,612,726,663,558,223,256
+"{""flip"": true, ""gain"": 2.0, ""upscale_flip"": true, ""upscales"": [224]}",0,scan-wave-fish,0.921875,777,723,612,726,663,558,223,256
+"{""flip"": true, ""gain"": 2.0, ""upscale_flip"": true, ""upscales"": [224]}",0,scan-fish-wave,0.9199810606060606,777,723,612,728,667,548,216,256
+"{""flip"": true, ""gain"": 2.0, ""upscale_flip"": true, ""upscales"": [224]}",0,wave-scan-fish,0.9142992424242424,777,723,612,720,663,548,221,256
+"{""flip"": true, ""gain"": 2.0, ""upscale_flip"": true, ""upscales"": [224]}",0,wave-fish-scan,0.9223484848484849,777,723,612,719,665,564,220,256
+"{""flip"": true, ""gain"": 2.0, ""upscale_flip"": true, ""upscales"": [224]}",0,fish-scan-wave,0.9024621212121212,777,723,612,707,646,553,208,256
+"{""flip"": true, ""gain"": 2.0, ""upscale_flip"": true, ""upscales"": [224]}",0,fish-wave-scan,0.9095643939393939,777,723,612,711,653,557,215,256
+"{""flip"": true, ""gain"": 2.0, ""upscale_flip"": true, ""upscales"": [224]}",1,official,0.9299242424242424,777,723,612,731,675,558,224,256
+"{""flip"": true, ""gain"": 2.0, ""upscale_flip"": true, ""upscales"": [224]}",1,scan-wave-fish,0.9299242424242424,777,723,612,731,675,558,224,256
+"{""flip"": true, ""gain"": 2.0, ""upscale_flip"": true, ""upscales"": [224]}",1,scan-fish-wave,0.915719696969697,777,723,612,730,657,547,210,256
+"{""flip"": true, ""gain"": 2.0, ""upscale_flip"": true, ""upscales"": [224]}",1,wave-scan-fish,0.9147727272727273,777,723,612,719,660,553,222,256
+"{""flip"": true, ""gain"": 2.0, ""upscale_flip"": true, ""upscales"": [224]}",1,wave-fish-scan,0.9228219696969697,777,723,612,721,663,565,220,256
+"{""flip"": true, ""gain"": 2.0, ""upscale_flip"": true, ""upscales"": [224]}",1,fish-scan-wave,0.9119318181818182,777,723,612,715,655,556,213,256
+"{""flip"": true, ""gain"": 2.0, ""upscale_flip"": true, ""upscales"": [224]}",1,fish-wave-scan,0.9190340909090909,777,723,612,715,667,559,217,256
+"{""flip"": true, ""gain"": 2.0, ""upscale_flip"": true, ""upscales"": [224]}",2,official,0.9285037878787878,777,723,612,733,668,560,222,256
+"{""flip"": true, ""gain"": 2.0, ""upscale_flip"": true, ""upscales"": [224]}",2,scan-wave-fish,0.9285037878787878,777,723,612,733,668,560,222,256
+"{""flip"": true, ""gain"": 2.0, ""upscale_flip"": true, ""upscales"": [224]}",2,scan-fish-wave,0.9204545454545454,777,723,612,732,666,546,212,256
+"{""flip"": true, ""gain"": 2.0, ""upscale_flip"": true, ""upscales"": [224]}",2,wave-scan-fish,0.9114583333333334,777,723,612,712,665,548,216,256
+"{""flip"": true, ""gain"": 2.0, ""upscale_flip"": true, ""upscales"": [224]}",2,wave-fish-scan,0.9232954545454546,777,723,612,720,669,561,221,256
+"{""flip"": true, ""gain"": 2.0, ""upscale_flip"": true, ""upscales"": [224]}",2,fish-scan-wave,0.9019886363636364,777,723,612,706,653,546,208,256
+"{""flip"": true, ""gain"": 2.0, ""upscale_flip"": true, ""upscales"": [224]}",2,fish-wave-scan,0.9195075757575758,777,723,612,723,669,550,218,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,official,0.9408143939393939,777,723,612,739,674,574,230,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,scan-wave-fish,0.9408143939393939,777,723,612,739,674,574,230,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,scan-fish-wave,0.9351325757575758,777,723,612,740,669,566,222,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,wave-scan-fish,0.921875,777,723,612,717,657,573,232,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,wave-fish-scan,0.9270833333333334,777,723,612,732,659,567,226,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,fish-scan-wave,0.9100378787878788,777,723,612,719,655,548,213,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,fish-wave-scan,0.9237689393939394,777,723,612,731,668,552,222,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,official,0.9360795454545454,777,723,612,737,671,569,224,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,scan-wave-fish,0.9360795454545454,777,723,612,737,671,569,224,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,scan-fish-wave,0.9341856060606061,777,723,612,736,668,569,219,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,wave-scan-fish,0.9180871212121212,777,723,612,718,655,566,229,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,wave-fish-scan,0.9256628787878788,777,723,612,735,657,563,226,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,fish-scan-wave,0.9105113636363636,777,723,612,722,657,544,212,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,fish-wave-scan,0.9180871212121212,777,723,612,723,668,548,221,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,official,0.9351325757575758,777,723,612,740,673,562,225,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,scan-wave-fish,0.9351325757575758,777,723,612,740,673,562,225,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,scan-fish-wave,0.9270833333333334,777,723,612,739,657,562,219,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,wave-scan-fish,0.9171401515151515,777,723,612,714,659,564,223,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,wave-fish-scan,0.9223484848484849,777,723,612,727,661,560,224,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,fish-scan-wave,0.9081439393939394,777,723,612,720,651,547,216,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,fish-wave-scan,0.9180871212121212,777,723,612,718,667,554,216,256
+"{""aug"": ""full"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,official,0.9337121212121212,777,723,612,728,671,573,224,256
+"{""aug"": ""full"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,scan-wave-fish,0.9337121212121212,777,723,612,728,671,573,224,256
+"{""aug"": ""full"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,scan-fish-wave,0.9261363636363636,777,723,612,729,657,570,217,256
+"{""aug"": ""full"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,wave-scan-fish,0.9147727272727273,777,723,612,714,652,566,221,256
+"{""aug"": ""full"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,wave-fish-scan,0.9237689393939394,777,723,612,730,654,567,226,256
+"{""aug"": ""full"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,fish-scan-wave,0.9185606060606061,777,723,612,719,658,563,218,256
+"{""aug"": ""full"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,fish-wave-scan,0.9209280303030303,777,723,612,720,655,570,221,256
+"{""aug"": ""full"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,official,0.9398674242424242,777,723,612,734,678,573,230,256
+"{""aug"": ""full"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,scan-wave-fish,0.9398674242424242,777,723,612,734,678,573,230,256
+"{""aug"": ""full"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,scan-fish-wave,0.9308712121212122,777,723,612,734,666,566,219,256
+"{""aug"": ""full"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,wave-scan-fish,0.9204545454545454,777,723,612,723,654,567,229,256
+"{""aug"": ""full"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,wave-fish-scan,0.9228219696969697,777,723,612,725,656,568,227,256
+"{""aug"": ""full"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,fish-scan-wave,0.9142992424242424,777,723,612,715,669,547,215,256
+"{""aug"": ""full"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,fish-wave-scan,0.915719696969697,777,723,612,718,665,551,226,256
+"{""aug"": ""full"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,official,0.9360795454545454,777,723,612,728,674,575,233,256
+"{""aug"": ""full"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,scan-wave-fish,0.9360795454545454,777,723,612,728,674,575,233,256
+"{""aug"": ""full"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,scan-fish-wave,0.9308712121212122,777,723,612,729,668,569,220,256
+"{""aug"": ""full"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,wave-scan-fish,0.9119318181818182,777,723,612,707,650,569,222,256
+"{""aug"": ""full"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,wave-fish-scan,0.9199810606060606,777,723,612,722,652,569,225,256
+"{""aug"": ""full"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,fish-scan-wave,0.9152462121212122,777,723,612,720,662,551,222,256
+"{""aug"": ""full"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,fish-wave-scan,0.9256628787878788,777,723,612,723,675,557,221,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224]}",0,official,0.9247159090909091,777,723,612,732,672,549,219,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224]}",0,scan-wave-fish,0.9247159090909091,777,723,612,732,672,549,219,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224]}",0,scan-fish-wave,0.9223484848484849,777,723,612,735,664,549,212,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224]}",0,wave-scan-fish,0.9176136363636364,777,723,612,716,662,560,226,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224]}",0,wave-fish-scan,0.9209280303030303,777,723,612,728,663,554,222,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224]}",0,fish-scan-wave,0.9034090909090909,777,723,612,725,647,536,212,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224]}",0,fish-wave-scan,0.9133522727272727,777,723,612,725,664,540,218,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224]}",1,official,0.9223484848484849,777,723,612,728,665,555,220,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224]}",1,scan-wave-fish,0.9223484848484849,777,723,612,728,665,555,220,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224]}",1,scan-fish-wave,0.9237689393939394,777,723,612,729,667,555,217,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224]}",1,wave-scan-fish,0.9086174242424242,777,723,612,704,659,556,225,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224]}",1,wave-fish-scan,0.9209280303030303,777,723,612,728,662,555,222,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224]}",1,fish-scan-wave,0.9053030303030303,777,723,612,723,653,536,212,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224]}",1,fish-wave-scan,0.9095643939393939,777,723,612,724,657,540,215,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224]}",2,official,0.9266098484848485,777,723,612,735,668,554,221,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224]}",2,scan-wave-fish,0.9266098484848485,777,723,612,735,668,554,221,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224]}",2,scan-fish-wave,0.9190340909090909,777,723,612,736,667,538,210,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224]}",2,wave-scan-fish,0.90625,777,723,612,711,655,548,218,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224]}",2,wave-fish-scan,0.9147727272727273,777,723,612,727,659,546,220,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224]}",2,fish-scan-wave,0.9019886363636364,777,723,612,723,648,534,213,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224]}",2,fish-wave-scan,0.9081439393939394,777,723,612,719,661,538,216,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [192]}",0,official,0.9251893939393939,777,723,612,734,671,549,222,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [192]}",0,scan-wave-fish,0.9251893939393939,777,723,612,734,671,549,222,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [192]}",0,scan-fish-wave,0.9152462121212122,777,723,612,737,665,531,206,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [192]}",0,wave-scan-fish,0.9142992424242424,777,723,612,718,663,550,218,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [192]}",0,wave-fish-scan,0.921875,777,723,612,730,666,551,223,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [192]}",0,fish-scan-wave,0.9067234848484849,777,723,612,731,649,535,211,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [192]}",0,fish-wave-scan,0.9076704545454546,777,723,612,719,661,537,213,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [192]}",1,official,0.9228219696969697,777,723,612,732,664,553,220,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [192]}",1,scan-wave-fish,0.9228219696969697,777,723,612,732,664,553,220,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [192]}",1,scan-fish-wave,0.9176136363636364,777,723,612,733,669,536,208,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [192]}",1,wave-scan-fish,0.9086174242424242,777,723,612,720,659,540,217,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [192]}",1,wave-fish-scan,0.9190340909090909,777,723,612,726,662,553,223,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [192]}",1,fish-scan-wave,0.9010416666666666,777,723,612,724,650,529,210,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [192]}",1,fish-wave-scan,0.9081439393939394,777,723,612,722,659,537,213,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [192]}",2,official,0.9285037878787878,777,723,612,737,666,558,223,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [192]}",2,scan-wave-fish,0.9285037878787878,777,723,612,737,666,558,223,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [192]}",2,scan-fish-wave,0.9166666666666666,777,723,612,738,669,529,206,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [192]}",2,wave-scan-fish,0.9048295454545454,777,723,612,714,662,535,208,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [192]}",2,wave-fish-scan,0.9195075757575758,777,723,612,731,666,545,221,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [192]}",2,fish-scan-wave,0.900094696969697,777,723,612,725,644,532,209,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [192]}",2,fish-wave-scan,0.90625,777,723,612,717,661,536,212,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",0,official,0.9408143939393939,777,723,612,739,674,574,230,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",0,scan-wave-fish,0.9408143939393939,777,723,612,739,674,574,230,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",0,scan-fish-wave,0.9351325757575758,777,723,612,740,669,566,222,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",0,wave-scan-fish,0.921875,777,723,612,717,657,573,232,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",0,wave-fish-scan,0.9270833333333334,777,723,612,732,659,567,226,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",0,fish-scan-wave,0.9095643939393939,777,723,612,718,655,548,212,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",0,fish-wave-scan,0.9237689393939394,777,723,612,731,668,552,222,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",1,official,0.9360795454545454,777,723,612,737,671,569,224,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",1,scan-wave-fish,0.9360795454545454,777,723,612,737,671,569,224,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",1,scan-fish-wave,0.9337121212121212,777,723,612,736,668,568,219,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",1,wave-scan-fish,0.9185606060606061,777,723,612,718,656,566,229,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",1,wave-fish-scan,0.9261363636363636,777,723,612,735,658,563,226,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",1,fish-scan-wave,0.9105113636363636,777,723,612,722,657,544,212,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",1,fish-wave-scan,0.9180871212121212,777,723,612,723,668,548,221,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",2,official,0.9356060606060606,777,723,612,740,673,563,225,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",2,scan-wave-fish,0.9356060606060606,777,723,612,740,673,563,225,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",2,scan-fish-wave,0.9270833333333334,777,723,612,739,657,562,219,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",2,wave-scan-fish,0.9171401515151515,777,723,612,714,659,564,223,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",2,wave-fish-scan,0.9228219696969697,777,723,612,727,661,561,224,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",2,fish-scan-wave,0.9081439393939394,777,723,612,720,651,547,216,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",2,fish-wave-scan,0.9180871212121212,777,723,612,718,667,554,216,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224], ""view_amp"": true}",0,official,0.9242424242424242,777,723,612,731,672,549,219,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224], ""view_amp"": true}",0,scan-wave-fish,0.9242424242424242,777,723,612,731,672,549,219,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224], ""view_amp"": true}",0,scan-fish-wave,0.9223484848484849,777,723,612,734,664,550,212,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224], ""view_amp"": true}",0,wave-scan-fish,0.9180871212121212,777,723,612,716,662,561,226,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224], ""view_amp"": true}",0,wave-fish-scan,0.9209280303030303,777,723,612,728,663,554,222,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224], ""view_amp"": true}",0,fish-scan-wave,0.9034090909090909,777,723,612,725,647,536,212,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224], ""view_amp"": true}",0,fish-wave-scan,0.9133522727272727,777,723,612,725,664,540,218,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224], ""view_amp"": true}",1,official,0.9223484848484849,777,723,612,728,665,555,220,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224], ""view_amp"": true}",1,scan-wave-fish,0.9223484848484849,777,723,612,728,665,555,220,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224], ""view_amp"": true}",1,scan-fish-wave,0.9232954545454546,777,723,612,729,667,554,217,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224], ""view_amp"": true}",1,wave-scan-fish,0.9086174242424242,777,723,612,704,659,556,225,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224], ""view_amp"": true}",1,wave-fish-scan,0.9209280303030303,777,723,612,728,662,555,222,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224], ""view_amp"": true}",1,fish-scan-wave,0.90625,777,723,612,724,654,536,212,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224], ""view_amp"": true}",1,fish-wave-scan,0.9100378787878788,777,723,612,724,658,540,216,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224], ""view_amp"": true}",2,official,0.9266098484848485,777,723,612,735,668,554,221,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224], ""view_amp"": true}",2,scan-wave-fish,0.9266098484848485,777,723,612,735,668,554,221,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224], ""view_amp"": true}",2,scan-fish-wave,0.9190340909090909,777,723,612,736,667,538,210,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224], ""view_amp"": true}",2,wave-scan-fish,0.90625,777,723,612,711,655,548,218,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224], ""view_amp"": true}",2,wave-fish-scan,0.9142992424242424,777,723,612,726,659,546,220,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224], ""view_amp"": true}",2,fish-scan-wave,0.9019886363636364,777,723,612,722,648,535,213,256
+"{""aug"": ""soft"", ""flip"": true, ""upscale_flip"": false, ""upscales"": [224], ""view_amp"": true}",2,fish-wave-scan,0.9086174242424242,777,723,612,719,661,539,216,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,official,0.9398674242424242,777,723,612,739,674,572,229,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,scan-wave-fish,0.9398674242424242,777,723,612,739,674,572,229,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,scan-fish-wave,0.9341856060606061,777,723,612,740,667,566,220,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,wave-scan-fish,0.921875,777,723,612,718,658,571,232,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,wave-fish-scan,0.9275568181818182,777,723,612,733,660,566,226,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,fish-scan-wave,0.9090909090909091,777,723,612,718,654,548,212,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224]}",0,fish-wave-scan,0.9228219696969697,777,723,612,730,667,552,222,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,official,0.9351325757575758,777,723,612,736,670,569,224,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,scan-wave-fish,0.9351325757575758,777,723,612,736,670,569,224,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,scan-fish-wave,0.9299242424242424,777,723,612,735,665,564,219,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,wave-scan-fish,0.9190340909090909,777,723,612,719,656,566,229,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,wave-fish-scan,0.9256628787878788,777,723,612,731,658,566,225,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,fish-scan-wave,0.9071969696969697,777,723,612,718,655,543,210,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224]}",1,fish-wave-scan,0.9190340909090909,777,723,612,725,668,548,222,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,official,0.9346590909090909,777,723,612,740,673,561,228,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,scan-wave-fish,0.9346590909090909,777,723,612,740,673,561,228,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,scan-fish-wave,0.9275568181818182,777,723,612,739,657,563,219,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,wave-scan-fish,0.9176136363636364,777,723,612,711,661,566,223,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,wave-fish-scan,0.9237689393939394,777,723,612,728,663,560,224,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,fish-scan-wave,0.9057765151515151,777,723,612,714,650,549,214,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224]}",2,fish-wave-scan,0.9190340909090909,777,723,612,720,666,555,216,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",0,official,0.9398674242424242,777,723,612,739,674,572,229,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",0,scan-wave-fish,0.9398674242424242,777,723,612,739,674,572,229,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",0,scan-fish-wave,0.9341856060606061,777,723,612,740,667,566,220,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",0,wave-scan-fish,0.9214015151515151,777,723,612,718,658,570,232,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",0,wave-fish-scan,0.9275568181818182,777,723,612,733,660,566,226,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",0,fish-scan-wave,0.9090909090909091,777,723,612,718,655,547,212,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",0,fish-wave-scan,0.9228219696969697,777,723,612,730,668,551,221,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",1,official,0.9351325757575758,777,723,612,736,670,569,224,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",1,scan-wave-fish,0.9351325757575758,777,723,612,736,670,569,224,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",1,scan-fish-wave,0.9294507575757576,777,723,612,735,665,563,219,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",1,wave-scan-fish,0.9190340909090909,777,723,612,719,656,566,229,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",1,wave-fish-scan,0.9256628787878788,777,723,612,731,658,566,225,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",1,fish-scan-wave,0.9071969696969697,777,723,612,718,655,543,210,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",1,fish-wave-scan,0.9185606060606061,777,723,612,724,668,548,222,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",2,official,0.9341856060606061,777,723,612,740,672,561,227,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",2,scan-wave-fish,0.9341856060606061,777,723,612,740,672,561,227,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",2,scan-fish-wave,0.9275568181818182,777,723,612,739,657,563,219,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",2,wave-scan-fish,0.9176136363636364,777,723,612,711,661,566,223,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",2,wave-fish-scan,0.9232954545454546,777,723,612,727,663,560,223,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",2,fish-scan-wave,0.9053030303030303,777,723,612,714,649,549,214,256
+"{""aug"": ""soft"", ""flip"": true, ""fused_bn"": true, ""upscale_flip"": true, ""upscales"": [224], ""view_amp"": true}",2,fish-wave-scan,0.9190340909090909,777,723,612,720,665,556,216,256

@@ -1,0 +1,6 @@
+base                                     all 0.9388  official 0.9462  6-order worst 0.9296  scan+wave 0.9491  fisheye 0.9136  paired +0.00 (min +0.00, wins 0/21)
+soft+corr (all 6)                        all 0.9467  official 0.9501  6-order worst 0.9396  scan+wave 0.9529  fisheye 0.9315  paired +0.79 (min -0.33, wins 18/21)
+soft+noise,blur,pixelate                 all 0.9429  official 0.9500  6-order worst 0.9364  scan+wave 0.9481  fisheye 0.9304  paired +0.41 (min -0.85, wins 16/21)
+soft+lines                               all 0.9418  official 0.9490  6-order worst 0.9295  scan+wave 0.9446  fisheye 0.9348  paired +0.29 (min -1.37, wins 12/21)
+soft+gray                                all 0.9497  official 0.9560  6-order worst 0.9416  scan+wave 0.9524  fisheye 0.9431  paired +1.09 (min -0.28, wins 18/21)
+soft+posterize                           all 0.9471  official 0.9574  6-order worst 0.9375  scan+wave 0.9527  fisheye 0.9333  paired +0.82 (min -0.33, wins 19/21)

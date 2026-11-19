@@ -1,0 +1,10 @@
+{
+ "flip": true,
+ "upscales": [
+  224
+ ],
+ "upscale_flip": true,
+ "aug": "soft",
+ "view_amp": true,
+ "cudnn_benchmark": true
+}

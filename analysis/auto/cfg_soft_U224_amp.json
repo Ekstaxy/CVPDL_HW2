@@ -1,0 +1,9 @@
+{
+ "flip": true,
+ "upscales": [
+  224
+ ],
+ "upscale_flip": false,
+ "aug": "soft",
+ "view_amp": true
+}
